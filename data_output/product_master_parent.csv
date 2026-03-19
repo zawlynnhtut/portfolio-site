@@ -1,0 +1,6 @@
+parent_sku_id,product_name,brand,category,lifecycle_type,base_price,sku_age_weeks,size_variant_count,is_shared_assortment
+P001,Basic Tee 1,SimuBrand,Apparel,Evergreen,34,7,3,1
+P002,Relaxed Shirt 2,SimuBrand,Apparel,Declining,55,35,3,1
+P003,Summer Dress 3,SimuBrand,Apparel,Seasonal,48,21,3,1
+P004,Classic Polo 4,SimuBrand,Apparel,Trend,33,90,3,1
+P005,Wide Leg Pants 5,SimuBrand,Apparel,Evergreen,89,15,3,1

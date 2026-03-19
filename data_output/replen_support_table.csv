@@ -1,0 +1,781 @@
+week_id,week_start_date,week_end_date,week_type,store_id,store_name,parent_sku_id,child_sku_id,lifecycle_type,base_price,sales_qty,sales_value,last_4w_avg_sales,lead_time_weeks,safety_stock_qty,target_stock_qty,on_hand_qty,reorder_qty,weeks_of_cover,stock_status,priority_flag
+W001,2025-01-06,2025-01-12,spike,S001,Downtown Store,P001,P001_L,Evergreen,34,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W002,2025-01-13,2025-01-19,spike,S001,Downtown Store,P001,P001_L,Evergreen,34,0,0,0.0,1,1,1,2,0,,Overstock,Hold / Monitor
+W003,2025-01-20,2025-01-26,normal,S001,Downtown Store,P001,P001_L,Evergreen,34,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W004,2025-01-27,2025-02-02,normal,S001,Downtown Store,P001,P001_L,Evergreen,34,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W005,2025-02-03,2025-02-09,slow,S001,Downtown Store,P001,P001_L,Evergreen,34,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W006,2025-02-10,2025-02-16,normal,S001,Downtown Store,P001,P001_L,Evergreen,34,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W007,2025-02-17,2025-02-23,normal,S001,Downtown Store,P001,P001_L,Evergreen,34,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W008,2025-02-24,2025-03-02,normal,S001,Downtown Store,P001,P001_L,Evergreen,34,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W009,2025-03-03,2025-03-09,slow,S001,Downtown Store,P001,P001_L,Evergreen,34,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W010,2025-03-10,2025-03-16,slow,S001,Downtown Store,P001,P001_L,Evergreen,34,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W011,2025-03-17,2025-03-23,normal,S001,Downtown Store,P001,P001_L,Evergreen,34,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W012,2025-03-24,2025-03-30,normal,S001,Downtown Store,P001,P001_L,Evergreen,34,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W013,2025-03-31,2025-04-06,normal,S001,Downtown Store,P001,P001_L,Evergreen,34,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W014,2025-04-07,2025-04-13,spike,S001,Downtown Store,P001,P001_L,Evergreen,34,2,68,0.0,1,1,1,1,0,,Understock,Normal
+W015,2025-04-14,2025-04-20,normal,S001,Downtown Store,P001,P001_L,Evergreen,34,0,0,0.5,1,1,2,2,0,4.0,Healthy,Normal
+W016,2025-04-21,2025-04-27,normal,S001,Downtown Store,P001,P001_L,Evergreen,34,0,0,0.5,1,1,2,1,1,2.0,Understock,Reorder Now
+W017,2025-04-28,2025-05-04,normal,S001,Downtown Store,P001,P001_L,Evergreen,34,0,0,0.5,1,1,2,3,0,6.0,Overstock,Hold / Monitor
+W018,2025-05-05,2025-05-11,normal,S001,Downtown Store,P001,P001_L,Evergreen,34,0,0,0.5,1,1,2,2,0,4.0,Healthy,Normal
+W019,2025-05-12,2025-05-18,spike,S001,Downtown Store,P001,P001_L,Evergreen,34,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W020,2025-05-19,2025-05-25,normal,S001,Downtown Store,P001,P001_L,Evergreen,34,2,68,0.0,1,1,1,0,1,,Understock,Normal
+W021,2025-05-26,2025-06-01,slow,S001,Downtown Store,P001,P001_L,Evergreen,34,0,0,0.5,1,1,2,1,1,2.0,Understock,Reorder Now
+W022,2025-06-02,2025-06-08,normal,S001,Downtown Store,P001,P001_L,Evergreen,34,0,0,0.5,1,1,2,2,0,4.0,Healthy,Normal
+W023,2025-06-09,2025-06-15,normal,S001,Downtown Store,P001,P001_L,Evergreen,34,0,0,0.5,1,1,2,3,0,6.0,Overstock,Hold / Monitor
+W024,2025-06-16,2025-06-22,normal,S001,Downtown Store,P001,P001_L,Evergreen,34,0,0,0.5,1,1,2,2,0,4.0,Healthy,Normal
+W025,2025-06-23,2025-06-29,normal,S001,Downtown Store,P001,P001_L,Evergreen,34,0,0,0.0,1,1,1,0,1,,Understock,Normal
+W026,2025-06-30,2025-07-06,normal,S001,Downtown Store,P001,P001_L,Evergreen,34,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W001,2025-01-06,2025-01-12,spike,S001,Downtown Store,P001,P001_M,Evergreen,34,5,170,0.0,1,1,1,2,0,,Overstock,Hold / Monitor
+W002,2025-01-13,2025-01-19,spike,S001,Downtown Store,P001,P001_M,Evergreen,34,0,0,5.0,1,6,11,11,0,2.2,Healthy,Normal
+W003,2025-01-20,2025-01-26,normal,S001,Downtown Store,P001,P001_M,Evergreen,34,0,0,2.5,1,3,6,9,0,3.6,Overstock,Hold / Monitor
+W004,2025-01-27,2025-02-02,normal,S001,Downtown Store,P001,P001_M,Evergreen,34,0,0,1.6666666666666667,1,2,4,6,0,3.6,Overstock,Hold / Monitor
+W005,2025-02-03,2025-02-09,slow,S001,Downtown Store,P001,P001_M,Evergreen,34,0,0,1.25,1,2,4,2,2,1.6,Understock,Reorder Now
+W006,2025-02-10,2025-02-16,normal,S001,Downtown Store,P001,P001_M,Evergreen,34,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W007,2025-02-17,2025-02-23,normal,S001,Downtown Store,P001,P001_M,Evergreen,34,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W008,2025-02-24,2025-03-02,normal,S001,Downtown Store,P001,P001_M,Evergreen,34,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W009,2025-03-03,2025-03-09,slow,S001,Downtown Store,P001,P001_M,Evergreen,34,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W010,2025-03-10,2025-03-16,slow,S001,Downtown Store,P001,P001_M,Evergreen,34,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W011,2025-03-17,2025-03-23,normal,S001,Downtown Store,P001,P001_M,Evergreen,34,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W012,2025-03-24,2025-03-30,normal,S001,Downtown Store,P001,P001_M,Evergreen,34,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W013,2025-03-31,2025-04-06,normal,S001,Downtown Store,P001,P001_M,Evergreen,34,3,102,0.0,1,1,1,1,0,,Understock,Normal
+W014,2025-04-07,2025-04-13,spike,S001,Downtown Store,P001,P001_M,Evergreen,34,5,170,0.75,1,1,2,3,0,4.0,Overstock,Hold / Monitor
+W015,2025-04-14,2025-04-20,normal,S001,Downtown Store,P001,P001_M,Evergreen,34,0,0,2.0,1,3,5,7,0,3.5,Overstock,Hold / Monitor
+W016,2025-04-21,2025-04-27,normal,S001,Downtown Store,P001,P001_M,Evergreen,34,0,0,2.0,1,3,5,4,1,2.0,Healthy,Normal
+W017,2025-04-28,2025-05-04,normal,S001,Downtown Store,P001,P001_M,Evergreen,34,0,0,2.0,1,3,5,5,0,2.5,Healthy,Normal
+W018,2025-05-05,2025-05-11,normal,S001,Downtown Store,P001,P001_M,Evergreen,34,0,0,1.25,1,2,4,2,2,1.6,Understock,Reorder Now
+W019,2025-05-12,2025-05-18,spike,S001,Downtown Store,P001,P001_M,Evergreen,34,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W020,2025-05-19,2025-05-25,normal,S001,Downtown Store,P001,P001_M,Evergreen,34,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W021,2025-05-26,2025-06-01,slow,S001,Downtown Store,P001,P001_M,Evergreen,34,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W022,2025-06-02,2025-06-08,normal,S001,Downtown Store,P001,P001_M,Evergreen,34,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W023,2025-06-09,2025-06-15,normal,S001,Downtown Store,P001,P001_M,Evergreen,34,1,34,0.0,1,1,1,1,0,,Understock,Normal
+W024,2025-06-16,2025-06-22,normal,S001,Downtown Store,P001,P001_M,Evergreen,34,0,0,0.25,1,1,2,1,1,4.0,Understock,Reorder Now
+W025,2025-06-23,2025-06-29,normal,S001,Downtown Store,P001,P001_M,Evergreen,34,0,0,0.25,1,1,2,3,0,12.0,Overstock,Hold / Monitor
+W026,2025-06-30,2025-07-06,normal,S001,Downtown Store,P001,P001_M,Evergreen,34,0,0,0.25,1,1,2,2,0,8.0,Healthy,Normal
+W001,2025-01-06,2025-01-12,spike,S001,Downtown Store,P001,P001_S,Evergreen,34,1,34,0.0,1,1,1,1,0,,Understock,Normal
+W002,2025-01-13,2025-01-19,spike,S001,Downtown Store,P001,P001_S,Evergreen,34,0,0,1.0,1,2,3,3,0,3.0,Healthy,Normal
+W003,2025-01-20,2025-01-26,normal,S001,Downtown Store,P001,P001_S,Evergreen,34,0,0,0.5,1,1,2,1,1,2.0,Understock,Reorder Now
+W004,2025-01-27,2025-02-02,normal,S001,Downtown Store,P001,P001_S,Evergreen,34,0,0,0.3333333333333333,1,1,2,2,0,6.0,Healthy,Normal
+W005,2025-02-03,2025-02-09,slow,S001,Downtown Store,P001,P001_S,Evergreen,34,0,0,0.25,1,1,2,1,1,4.0,Understock,Reorder Now
+W006,2025-02-10,2025-02-16,normal,S001,Downtown Store,P001,P001_S,Evergreen,34,0,0,0.0,1,1,1,2,0,,Overstock,Hold / Monitor
+W007,2025-02-17,2025-02-23,normal,S001,Downtown Store,P001,P001_S,Evergreen,34,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W008,2025-02-24,2025-03-02,normal,S001,Downtown Store,P001,P001_S,Evergreen,34,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W009,2025-03-03,2025-03-09,slow,S001,Downtown Store,P001,P001_S,Evergreen,34,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W010,2025-03-10,2025-03-16,slow,S001,Downtown Store,P001,P001_S,Evergreen,34,0,0,0.0,1,1,1,0,1,,Understock,Normal
+W011,2025-03-17,2025-03-23,normal,S001,Downtown Store,P001,P001_S,Evergreen,34,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W012,2025-03-24,2025-03-30,normal,S001,Downtown Store,P001,P001_S,Evergreen,34,0,0,0.0,1,1,1,2,0,,Overstock,Hold / Monitor
+W013,2025-03-31,2025-04-06,normal,S001,Downtown Store,P001,P001_S,Evergreen,34,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W014,2025-04-07,2025-04-13,spike,S001,Downtown Store,P001,P001_S,Evergreen,34,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W015,2025-04-14,2025-04-20,normal,S001,Downtown Store,P001,P001_S,Evergreen,34,0,0,0.0,1,1,1,0,1,,Understock,Normal
+W016,2025-04-21,2025-04-27,normal,S001,Downtown Store,P001,P001_S,Evergreen,34,2,68,0.0,1,1,1,1,0,,Understock,Normal
+W017,2025-04-28,2025-05-04,normal,S001,Downtown Store,P001,P001_S,Evergreen,34,0,0,0.5,1,1,2,3,0,6.0,Overstock,Hold / Monitor
+W018,2025-05-05,2025-05-11,normal,S001,Downtown Store,P001,P001_S,Evergreen,34,0,0,0.5,1,1,2,1,1,2.0,Understock,Reorder Now
+W019,2025-05-12,2025-05-18,spike,S001,Downtown Store,P001,P001_S,Evergreen,34,0,0,0.5,1,1,2,2,0,4.0,Healthy,Normal
+W020,2025-05-19,2025-05-25,normal,S001,Downtown Store,P001,P001_S,Evergreen,34,0,0,0.5,1,1,2,2,0,4.0,Healthy,Normal
+W021,2025-05-26,2025-06-01,slow,S001,Downtown Store,P001,P001_S,Evergreen,34,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W022,2025-06-02,2025-06-08,normal,S001,Downtown Store,P001,P001_S,Evergreen,34,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W023,2025-06-09,2025-06-15,normal,S001,Downtown Store,P001,P001_S,Evergreen,34,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W024,2025-06-16,2025-06-22,normal,S001,Downtown Store,P001,P001_S,Evergreen,34,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W025,2025-06-23,2025-06-29,normal,S001,Downtown Store,P001,P001_S,Evergreen,34,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W026,2025-06-30,2025-07-06,normal,S001,Downtown Store,P001,P001_S,Evergreen,34,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W001,2025-01-06,2025-01-12,spike,S001,Downtown Store,P002,P002_L,Declining,55,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W002,2025-01-13,2025-01-19,spike,S001,Downtown Store,P002,P002_L,Declining,55,2,110,0.0,1,1,1,1,0,,Understock,Normal
+W003,2025-01-20,2025-01-26,normal,S001,Downtown Store,P002,P002_L,Declining,55,0,0,1.0,1,1,2,3,0,3.0,Overstock,Hold / Monitor
+W004,2025-01-27,2025-02-02,normal,S001,Downtown Store,P002,P002_L,Declining,55,0,0,0.6666666666666666,1,1,2,2,0,3.0,Healthy,Normal
+W005,2025-02-03,2025-02-09,slow,S001,Downtown Store,P002,P002_L,Declining,55,0,0,0.5,1,1,2,2,0,4.0,Healthy,Normal
+W006,2025-02-10,2025-02-16,normal,S001,Downtown Store,P002,P002_L,Declining,55,0,0,0.5,1,1,2,2,0,4.0,Healthy,Normal
+W007,2025-02-17,2025-02-23,normal,S001,Downtown Store,P002,P002_L,Declining,55,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W008,2025-02-24,2025-03-02,normal,S001,Downtown Store,P002,P002_L,Declining,55,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W009,2025-03-03,2025-03-09,slow,S001,Downtown Store,P002,P002_L,Declining,55,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W010,2025-03-10,2025-03-16,slow,S001,Downtown Store,P002,P002_L,Declining,55,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W011,2025-03-17,2025-03-23,normal,S001,Downtown Store,P002,P002_L,Declining,55,3,165,0.0,1,1,1,1,0,,Understock,Normal
+W012,2025-03-24,2025-03-30,normal,S001,Downtown Store,P002,P002_L,Declining,55,0,0,0.75,1,1,2,1,1,1.33,Understock,Reorder Now
+W013,2025-03-31,2025-04-06,normal,S001,Downtown Store,P002,P002_L,Declining,55,0,0,0.75,1,1,2,1,1,1.33,Understock,Reorder Now
+W014,2025-04-07,2025-04-13,spike,S001,Downtown Store,P002,P002_L,Declining,55,0,0,0.75,1,1,2,2,0,2.67,Healthy,Normal
+W015,2025-04-14,2025-04-20,normal,S001,Downtown Store,P002,P002_L,Declining,55,0,0,0.75,1,1,2,1,1,1.33,Understock,Reorder Now
+W016,2025-04-21,2025-04-27,normal,S001,Downtown Store,P002,P002_L,Declining,55,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W017,2025-04-28,2025-05-04,normal,S001,Downtown Store,P002,P002_L,Declining,55,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W018,2025-05-05,2025-05-11,normal,S001,Downtown Store,P002,P002_L,Declining,55,0,0,0.0,1,1,1,0,1,,Understock,Normal
+W019,2025-05-12,2025-05-18,spike,S001,Downtown Store,P002,P002_L,Declining,55,1,55,0.0,1,1,1,1,0,,Understock,Normal
+W020,2025-05-19,2025-05-25,normal,S001,Downtown Store,P002,P002_L,Declining,55,0,0,0.25,1,1,2,2,0,8.0,Healthy,Normal
+W021,2025-05-26,2025-06-01,slow,S001,Downtown Store,P002,P002_L,Declining,55,0,0,0.25,1,1,2,1,1,4.0,Understock,Reorder Now
+W022,2025-06-02,2025-06-08,normal,S001,Downtown Store,P002,P002_L,Declining,55,3,165,0.25,1,1,2,1,1,4.0,Understock,Reorder Now
+W023,2025-06-09,2025-06-15,normal,S001,Downtown Store,P002,P002_L,Declining,55,0,0,1.0,1,1,2,3,0,3.0,Overstock,Hold / Monitor
+W024,2025-06-16,2025-06-22,normal,S001,Downtown Store,P002,P002_L,Declining,55,0,0,0.75,1,1,2,2,0,2.67,Healthy,Normal
+W025,2025-06-23,2025-06-29,normal,S001,Downtown Store,P002,P002_L,Declining,55,0,0,0.75,1,1,2,2,0,2.67,Healthy,Normal
+W026,2025-06-30,2025-07-06,normal,S001,Downtown Store,P002,P002_L,Declining,55,0,0,0.75,1,1,2,3,0,4.0,Overstock,Hold / Monitor
+W001,2025-01-06,2025-01-12,spike,S001,Downtown Store,P002,P002_M,Declining,55,2,110,0.0,1,1,1,1,0,,Understock,Normal
+W002,2025-01-13,2025-01-19,spike,S001,Downtown Store,P002,P002_M,Declining,55,0,0,2.0,1,2,4,3,1,1.5,Healthy,Normal
+W003,2025-01-20,2025-01-26,normal,S001,Downtown Store,P002,P002_M,Declining,55,0,0,1.0,1,1,2,1,1,1.0,Understock,Reorder Now
+W004,2025-01-27,2025-02-02,normal,S001,Downtown Store,P002,P002_M,Declining,55,0,0,0.6666666666666666,1,1,2,2,0,3.0,Healthy,Normal
+W005,2025-02-03,2025-02-09,slow,S001,Downtown Store,P002,P002_M,Declining,55,0,0,0.5,1,1,2,2,0,4.0,Healthy,Normal
+W006,2025-02-10,2025-02-16,normal,S001,Downtown Store,P002,P002_M,Declining,55,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W007,2025-02-17,2025-02-23,normal,S001,Downtown Store,P002,P002_M,Declining,55,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W008,2025-02-24,2025-03-02,normal,S001,Downtown Store,P002,P002_M,Declining,55,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W009,2025-03-03,2025-03-09,slow,S001,Downtown Store,P002,P002_M,Declining,55,0,0,0.0,1,1,1,2,0,,Overstock,Hold / Monitor
+W010,2025-03-10,2025-03-16,slow,S001,Downtown Store,P002,P002_M,Declining,55,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W011,2025-03-17,2025-03-23,normal,S001,Downtown Store,P002,P002_M,Declining,55,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W012,2025-03-24,2025-03-30,normal,S001,Downtown Store,P002,P002_M,Declining,55,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W013,2025-03-31,2025-04-06,normal,S001,Downtown Store,P002,P002_M,Declining,55,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W014,2025-04-07,2025-04-13,spike,S001,Downtown Store,P002,P002_M,Declining,55,1,55,0.0,1,1,1,1,0,,Understock,Normal
+W015,2025-04-14,2025-04-20,normal,S001,Downtown Store,P002,P002_M,Declining,55,0,0,0.25,1,1,2,1,1,4.0,Understock,Reorder Now
+W016,2025-04-21,2025-04-27,normal,S001,Downtown Store,P002,P002_M,Declining,55,0,0,0.25,1,1,2,2,0,8.0,Healthy,Normal
+W017,2025-04-28,2025-05-04,normal,S001,Downtown Store,P002,P002_M,Declining,55,0,0,0.25,1,1,2,2,0,8.0,Healthy,Normal
+W018,2025-05-05,2025-05-11,normal,S001,Downtown Store,P002,P002_M,Declining,55,0,0,0.25,1,1,2,1,1,4.0,Understock,Reorder Now
+W019,2025-05-12,2025-05-18,spike,S001,Downtown Store,P002,P002_M,Declining,55,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W020,2025-05-19,2025-05-25,normal,S001,Downtown Store,P002,P002_M,Declining,55,0,0,0.0,1,1,1,2,0,,Overstock,Hold / Monitor
+W021,2025-05-26,2025-06-01,slow,S001,Downtown Store,P002,P002_M,Declining,55,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W022,2025-06-02,2025-06-08,normal,S001,Downtown Store,P002,P002_M,Declining,55,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W023,2025-06-09,2025-06-15,normal,S001,Downtown Store,P002,P002_M,Declining,55,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W024,2025-06-16,2025-06-22,normal,S001,Downtown Store,P002,P002_M,Declining,55,0,0,0.0,1,1,1,0,1,,Understock,Normal
+W025,2025-06-23,2025-06-29,normal,S001,Downtown Store,P002,P002_M,Declining,55,0,0,0.0,1,1,1,2,0,,Overstock,Hold / Monitor
+W026,2025-06-30,2025-07-06,normal,S001,Downtown Store,P002,P002_M,Declining,55,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W001,2025-01-06,2025-01-12,spike,S001,Downtown Store,P002,P002_S,Declining,55,0,0,0.0,1,1,1,2,0,,Overstock,Hold / Monitor
+W002,2025-01-13,2025-01-19,spike,S001,Downtown Store,P002,P002_S,Declining,55,0,0,0.0,1,1,1,2,0,,Overstock,Hold / Monitor
+W003,2025-01-20,2025-01-26,normal,S001,Downtown Store,P002,P002_S,Declining,55,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W004,2025-01-27,2025-02-02,normal,S001,Downtown Store,P002,P002_S,Declining,55,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W005,2025-02-03,2025-02-09,slow,S001,Downtown Store,P002,P002_S,Declining,55,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W006,2025-02-10,2025-02-16,normal,S001,Downtown Store,P002,P002_S,Declining,55,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W007,2025-02-17,2025-02-23,normal,S001,Downtown Store,P002,P002_S,Declining,55,1,55,0.0,1,1,1,1,0,,Understock,Normal
+W008,2025-02-24,2025-03-02,normal,S001,Downtown Store,P002,P002_S,Declining,55,0,0,0.25,1,1,2,1,1,4.0,Understock,Reorder Now
+W009,2025-03-03,2025-03-09,slow,S001,Downtown Store,P002,P002_S,Declining,55,0,0,0.25,1,1,2,2,0,8.0,Healthy,Normal
+W010,2025-03-10,2025-03-16,slow,S001,Downtown Store,P002,P002_S,Declining,55,0,0,0.25,1,1,2,3,0,12.0,Overstock,Hold / Monitor
+W011,2025-03-17,2025-03-23,normal,S001,Downtown Store,P002,P002_S,Declining,55,0,0,0.25,1,1,2,1,1,4.0,Understock,Reorder Now
+W012,2025-03-24,2025-03-30,normal,S001,Downtown Store,P002,P002_S,Declining,55,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W013,2025-03-31,2025-04-06,normal,S001,Downtown Store,P002,P002_S,Declining,55,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W014,2025-04-07,2025-04-13,spike,S001,Downtown Store,P002,P002_S,Declining,55,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W015,2025-04-14,2025-04-20,normal,S001,Downtown Store,P002,P002_S,Declining,55,0,0,0.0,1,1,1,2,0,,Overstock,Hold / Monitor
+W016,2025-04-21,2025-04-27,normal,S001,Downtown Store,P002,P002_S,Declining,55,2,110,0.0,1,1,1,2,0,,Overstock,Hold / Monitor
+W017,2025-04-28,2025-05-04,normal,S001,Downtown Store,P002,P002_S,Declining,55,0,0,0.5,1,1,2,2,0,4.0,Healthy,Normal
+W018,2025-05-05,2025-05-11,normal,S001,Downtown Store,P002,P002_S,Declining,55,0,0,0.5,1,1,2,3,0,6.0,Overstock,Hold / Monitor
+W019,2025-05-12,2025-05-18,spike,S001,Downtown Store,P002,P002_S,Declining,55,0,0,0.5,1,1,2,1,1,2.0,Understock,Reorder Now
+W020,2025-05-19,2025-05-25,normal,S001,Downtown Store,P002,P002_S,Declining,55,0,0,0.5,1,1,2,2,0,4.0,Healthy,Normal
+W021,2025-05-26,2025-06-01,slow,S001,Downtown Store,P002,P002_S,Declining,55,0,0,0.0,1,1,1,2,0,,Overstock,Hold / Monitor
+W022,2025-06-02,2025-06-08,normal,S001,Downtown Store,P002,P002_S,Declining,55,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W023,2025-06-09,2025-06-15,normal,S001,Downtown Store,P002,P002_S,Declining,55,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W024,2025-06-16,2025-06-22,normal,S001,Downtown Store,P002,P002_S,Declining,55,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W025,2025-06-23,2025-06-29,normal,S001,Downtown Store,P002,P002_S,Declining,55,0,0,0.0,1,1,1,0,1,,Understock,Normal
+W026,2025-06-30,2025-07-06,normal,S001,Downtown Store,P002,P002_S,Declining,55,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W001,2025-01-06,2025-01-12,spike,S001,Downtown Store,P003,P003_L,Seasonal,48,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W002,2025-01-13,2025-01-19,spike,S001,Downtown Store,P003,P003_L,Seasonal,48,3,144,0.0,1,1,1,1,0,,Understock,Normal
+W003,2025-01-20,2025-01-26,normal,S001,Downtown Store,P003,P003_L,Seasonal,48,0,0,1.5,1,2,4,2,2,1.33,Understock,Reorder Now
+W004,2025-01-27,2025-02-02,normal,S001,Downtown Store,P003,P003_L,Seasonal,48,0,0,1.0,1,2,3,5,0,5.0,Overstock,Hold / Monitor
+W005,2025-02-03,2025-02-09,slow,S001,Downtown Store,P003,P003_L,Seasonal,48,0,0,0.75,1,1,2,1,1,1.33,Understock,Reorder Now
+W006,2025-02-10,2025-02-16,normal,S001,Downtown Store,P003,P003_L,Seasonal,48,0,0,0.75,1,1,2,1,1,1.33,Understock,Reorder Now
+W007,2025-02-17,2025-02-23,normal,S001,Downtown Store,P003,P003_L,Seasonal,48,2,96,0.0,1,1,1,1,0,,Understock,Normal
+W008,2025-02-24,2025-03-02,normal,S001,Downtown Store,P003,P003_L,Seasonal,48,0,0,0.5,1,1,2,2,0,4.0,Healthy,Normal
+W009,2025-03-03,2025-03-09,slow,S001,Downtown Store,P003,P003_L,Seasonal,48,0,0,0.5,1,1,2,1,1,2.0,Understock,Reorder Now
+W010,2025-03-10,2025-03-16,slow,S001,Downtown Store,P003,P003_L,Seasonal,48,0,0,0.5,1,1,2,1,1,2.0,Understock,Reorder Now
+W011,2025-03-17,2025-03-23,normal,S001,Downtown Store,P003,P003_L,Seasonal,48,0,0,0.5,1,1,2,3,0,6.0,Overstock,Hold / Monitor
+W012,2025-03-24,2025-03-30,normal,S001,Downtown Store,P003,P003_L,Seasonal,48,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W013,2025-03-31,2025-04-06,normal,S001,Downtown Store,P003,P003_L,Seasonal,48,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W014,2025-04-07,2025-04-13,spike,S001,Downtown Store,P003,P003_L,Seasonal,48,1,48,0.0,1,1,1,1,0,,Understock,Normal
+W015,2025-04-14,2025-04-20,normal,S001,Downtown Store,P003,P003_L,Seasonal,48,0,0,0.25,1,1,2,2,0,8.0,Healthy,Normal
+W016,2025-04-21,2025-04-27,normal,S001,Downtown Store,P003,P003_L,Seasonal,48,0,0,0.25,1,1,2,2,0,8.0,Healthy,Normal
+W017,2025-04-28,2025-05-04,normal,S001,Downtown Store,P003,P003_L,Seasonal,48,0,0,0.25,1,1,2,2,0,8.0,Healthy,Normal
+W018,2025-05-05,2025-05-11,normal,S001,Downtown Store,P003,P003_L,Seasonal,48,1,48,0.25,1,1,2,3,0,12.0,Overstock,Hold / Monitor
+W019,2025-05-12,2025-05-18,spike,S001,Downtown Store,P003,P003_L,Seasonal,48,0,0,0.25,1,1,2,1,1,4.0,Understock,Reorder Now
+W020,2025-05-19,2025-05-25,normal,S001,Downtown Store,P003,P003_L,Seasonal,48,0,0,0.25,1,1,2,3,0,12.0,Overstock,Hold / Monitor
+W021,2025-05-26,2025-06-01,slow,S001,Downtown Store,P003,P003_L,Seasonal,48,0,0,0.25,1,1,2,1,1,4.0,Understock,Reorder Now
+W022,2025-06-02,2025-06-08,normal,S001,Downtown Store,P003,P003_L,Seasonal,48,0,0,0.25,1,1,2,2,0,8.0,Healthy,Normal
+W023,2025-06-09,2025-06-15,normal,S001,Downtown Store,P003,P003_L,Seasonal,48,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W024,2025-06-16,2025-06-22,normal,S001,Downtown Store,P003,P003_L,Seasonal,48,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W025,2025-06-23,2025-06-29,normal,S001,Downtown Store,P003,P003_L,Seasonal,48,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W026,2025-06-30,2025-07-06,normal,S001,Downtown Store,P003,P003_L,Seasonal,48,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W001,2025-01-06,2025-01-12,spike,S001,Downtown Store,P003,P003_M,Seasonal,48,0,0,0.0,1,1,1,0,1,,Understock,Normal
+W002,2025-01-13,2025-01-19,spike,S001,Downtown Store,P003,P003_M,Seasonal,48,4,192,0.0,1,1,1,1,0,,Understock,Normal
+W003,2025-01-20,2025-01-26,normal,S001,Downtown Store,P003,P003_M,Seasonal,48,0,0,2.0,1,3,5,8,0,4.0,Overstock,Hold / Monitor
+W004,2025-01-27,2025-02-02,normal,S001,Downtown Store,P003,P003_M,Seasonal,48,0,0,1.3333333333333333,1,2,4,6,0,4.5,Overstock,Hold / Monitor
+W005,2025-02-03,2025-02-09,slow,S001,Downtown Store,P003,P003_M,Seasonal,48,0,0,1.0,1,2,3,1,2,1.0,Understock,Reorder Now
+W006,2025-02-10,2025-02-16,normal,S001,Downtown Store,P003,P003_M,Seasonal,48,0,0,1.0,1,2,3,2,1,2.0,Understock,Reorder Now
+W007,2025-02-17,2025-02-23,normal,S001,Downtown Store,P003,P003_M,Seasonal,48,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W008,2025-02-24,2025-03-02,normal,S001,Downtown Store,P003,P003_M,Seasonal,48,0,0,0.0,1,1,1,2,0,,Overstock,Hold / Monitor
+W009,2025-03-03,2025-03-09,slow,S001,Downtown Store,P003,P003_M,Seasonal,48,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W010,2025-03-10,2025-03-16,slow,S001,Downtown Store,P003,P003_M,Seasonal,48,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W011,2025-03-17,2025-03-23,normal,S001,Downtown Store,P003,P003_M,Seasonal,48,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W012,2025-03-24,2025-03-30,normal,S001,Downtown Store,P003,P003_M,Seasonal,48,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W013,2025-03-31,2025-04-06,normal,S001,Downtown Store,P003,P003_M,Seasonal,48,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W014,2025-04-07,2025-04-13,spike,S001,Downtown Store,P003,P003_M,Seasonal,48,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W015,2025-04-14,2025-04-20,normal,S001,Downtown Store,P003,P003_M,Seasonal,48,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W016,2025-04-21,2025-04-27,normal,S001,Downtown Store,P003,P003_M,Seasonal,48,0,0,0.0,1,1,1,2,0,,Overstock,Hold / Monitor
+W017,2025-04-28,2025-05-04,normal,S001,Downtown Store,P003,P003_M,Seasonal,48,1,48,0.0,1,1,1,1,0,,Understock,Normal
+W018,2025-05-05,2025-05-11,normal,S001,Downtown Store,P003,P003_M,Seasonal,48,0,0,0.25,1,1,2,1,1,4.0,Understock,Reorder Now
+W019,2025-05-12,2025-05-18,spike,S001,Downtown Store,P003,P003_M,Seasonal,48,0,0,0.25,1,1,2,3,0,12.0,Overstock,Hold / Monitor
+W020,2025-05-19,2025-05-25,normal,S001,Downtown Store,P003,P003_M,Seasonal,48,0,0,0.25,1,1,2,2,0,8.0,Healthy,Normal
+W021,2025-05-26,2025-06-01,slow,S001,Downtown Store,P003,P003_M,Seasonal,48,0,0,0.25,1,1,2,2,0,8.0,Healthy,Normal
+W022,2025-06-02,2025-06-08,normal,S001,Downtown Store,P003,P003_M,Seasonal,48,0,0,0.0,1,1,1,2,0,,Overstock,Hold / Monitor
+W023,2025-06-09,2025-06-15,normal,S001,Downtown Store,P003,P003_M,Seasonal,48,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W024,2025-06-16,2025-06-22,normal,S001,Downtown Store,P003,P003_M,Seasonal,48,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W025,2025-06-23,2025-06-29,normal,S001,Downtown Store,P003,P003_M,Seasonal,48,2,96,0.0,1,1,1,1,0,,Understock,Normal
+W026,2025-06-30,2025-07-06,normal,S001,Downtown Store,P003,P003_M,Seasonal,48,0,0,0.5,1,1,2,2,0,4.0,Healthy,Normal
+W001,2025-01-06,2025-01-12,spike,S001,Downtown Store,P003,P003_S,Seasonal,48,5,240,0.0,1,1,1,1,0,,Understock,Normal
+W002,2025-01-13,2025-01-19,spike,S001,Downtown Store,P003,P003_S,Seasonal,48,0,0,5.0,1,7,12,14,0,2.8,Healthy,Normal
+W003,2025-01-20,2025-01-26,normal,S001,Downtown Store,P003,P003_S,Seasonal,48,0,0,2.5,1,4,7,9,0,3.6,Overstock,Hold / Monitor
+W004,2025-01-27,2025-02-02,normal,S001,Downtown Store,P003,P003_S,Seasonal,48,0,0,1.6666666666666667,1,3,5,3,2,1.8,Understock,Reorder Now
+W005,2025-02-03,2025-02-09,slow,S001,Downtown Store,P003,P003_S,Seasonal,48,0,0,1.25,1,2,4,5,0,4.0,Healthy,Normal
+W006,2025-02-10,2025-02-16,normal,S001,Downtown Store,P003,P003_S,Seasonal,48,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W007,2025-02-17,2025-02-23,normal,S001,Downtown Store,P003,P003_S,Seasonal,48,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W008,2025-02-24,2025-03-02,normal,S001,Downtown Store,P003,P003_S,Seasonal,48,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W009,2025-03-03,2025-03-09,slow,S001,Downtown Store,P003,P003_S,Seasonal,48,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W010,2025-03-10,2025-03-16,slow,S001,Downtown Store,P003,P003_S,Seasonal,48,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W011,2025-03-17,2025-03-23,normal,S001,Downtown Store,P003,P003_S,Seasonal,48,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W012,2025-03-24,2025-03-30,normal,S001,Downtown Store,P003,P003_S,Seasonal,48,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W013,2025-03-31,2025-04-06,normal,S001,Downtown Store,P003,P003_S,Seasonal,48,0,0,0.0,1,1,1,0,1,,Understock,Normal
+W014,2025-04-07,2025-04-13,spike,S001,Downtown Store,P003,P003_S,Seasonal,48,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W015,2025-04-14,2025-04-20,normal,S001,Downtown Store,P003,P003_S,Seasonal,48,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W016,2025-04-21,2025-04-27,normal,S001,Downtown Store,P003,P003_S,Seasonal,48,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W017,2025-04-28,2025-05-04,normal,S001,Downtown Store,P003,P003_S,Seasonal,48,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W018,2025-05-05,2025-05-11,normal,S001,Downtown Store,P003,P003_S,Seasonal,48,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W019,2025-05-12,2025-05-18,spike,S001,Downtown Store,P003,P003_S,Seasonal,48,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W020,2025-05-19,2025-05-25,normal,S001,Downtown Store,P003,P003_S,Seasonal,48,0,0,0.0,1,1,1,0,1,,Understock,Normal
+W021,2025-05-26,2025-06-01,slow,S001,Downtown Store,P003,P003_S,Seasonal,48,0,0,0.0,1,1,1,0,1,,Understock,Normal
+W022,2025-06-02,2025-06-08,normal,S001,Downtown Store,P003,P003_S,Seasonal,48,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W023,2025-06-09,2025-06-15,normal,S001,Downtown Store,P003,P003_S,Seasonal,48,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W024,2025-06-16,2025-06-22,normal,S001,Downtown Store,P003,P003_S,Seasonal,48,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W025,2025-06-23,2025-06-29,normal,S001,Downtown Store,P003,P003_S,Seasonal,48,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W026,2025-06-30,2025-07-06,normal,S001,Downtown Store,P003,P003_S,Seasonal,48,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W001,2025-01-06,2025-01-12,spike,S001,Downtown Store,P004,P004_L,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W002,2025-01-13,2025-01-19,spike,S001,Downtown Store,P004,P004_L,Trend,33,3,99,0.0,1,1,1,1,0,,Understock,Normal
+W003,2025-01-20,2025-01-26,normal,S001,Downtown Store,P004,P004_L,Trend,33,0,0,1.5,1,3,5,4,1,2.67,Healthy,Normal
+W004,2025-01-27,2025-02-02,normal,S001,Downtown Store,P004,P004_L,Trend,33,0,0,1.0,1,2,3,4,0,4.0,Overstock,Hold / Monitor
+W005,2025-02-03,2025-02-09,slow,S001,Downtown Store,P004,P004_L,Trend,33,0,0,0.75,1,2,3,4,0,5.33,Overstock,Hold / Monitor
+W006,2025-02-10,2025-02-16,normal,S001,Downtown Store,P004,P004_L,Trend,33,0,0,0.75,1,2,3,4,0,5.33,Overstock,Hold / Monitor
+W007,2025-02-17,2025-02-23,normal,S001,Downtown Store,P004,P004_L,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W008,2025-02-24,2025-03-02,normal,S001,Downtown Store,P004,P004_L,Trend,33,1,33,0.0,1,1,1,1,0,,Understock,Normal
+W009,2025-03-03,2025-03-09,slow,S001,Downtown Store,P004,P004_L,Trend,33,0,0,0.25,1,1,2,1,1,4.0,Understock,Reorder Now
+W010,2025-03-10,2025-03-16,slow,S001,Downtown Store,P004,P004_L,Trend,33,0,0,0.25,1,1,2,1,1,4.0,Understock,Reorder Now
+W011,2025-03-17,2025-03-23,normal,S001,Downtown Store,P004,P004_L,Trend,33,0,0,0.25,1,1,2,3,0,12.0,Overstock,Hold / Monitor
+W012,2025-03-24,2025-03-30,normal,S001,Downtown Store,P004,P004_L,Trend,33,0,0,0.25,1,1,2,3,0,12.0,Overstock,Hold / Monitor
+W013,2025-03-31,2025-04-06,normal,S001,Downtown Store,P004,P004_L,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W014,2025-04-07,2025-04-13,spike,S001,Downtown Store,P004,P004_L,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W015,2025-04-14,2025-04-20,normal,S001,Downtown Store,P004,P004_L,Trend,33,1,33,0.0,1,1,1,1,0,,Understock,Normal
+W016,2025-04-21,2025-04-27,normal,S001,Downtown Store,P004,P004_L,Trend,33,0,0,0.25,1,1,2,3,0,12.0,Overstock,Hold / Monitor
+W017,2025-04-28,2025-05-04,normal,S001,Downtown Store,P004,P004_L,Trend,33,0,0,0.25,1,1,2,3,0,12.0,Overstock,Hold / Monitor
+W018,2025-05-05,2025-05-11,normal,S001,Downtown Store,P004,P004_L,Trend,33,0,0,0.25,1,1,2,3,0,12.0,Overstock,Hold / Monitor
+W019,2025-05-12,2025-05-18,spike,S001,Downtown Store,P004,P004_L,Trend,33,0,0,0.25,1,1,2,3,0,12.0,Overstock,Hold / Monitor
+W020,2025-05-19,2025-05-25,normal,S001,Downtown Store,P004,P004_L,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W021,2025-05-26,2025-06-01,slow,S001,Downtown Store,P004,P004_L,Trend,33,0,0,0.0,1,1,1,0,1,,Understock,Normal
+W022,2025-06-02,2025-06-08,normal,S001,Downtown Store,P004,P004_L,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W023,2025-06-09,2025-06-15,normal,S001,Downtown Store,P004,P004_L,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W024,2025-06-16,2025-06-22,normal,S001,Downtown Store,P004,P004_L,Trend,33,0,0,0.0,1,1,1,2,0,,Overstock,Hold / Monitor
+W025,2025-06-23,2025-06-29,normal,S001,Downtown Store,P004,P004_L,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W026,2025-06-30,2025-07-06,normal,S001,Downtown Store,P004,P004_L,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W001,2025-01-06,2025-01-12,spike,S001,Downtown Store,P004,P004_M,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W002,2025-01-13,2025-01-19,spike,S001,Downtown Store,P004,P004_M,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W003,2025-01-20,2025-01-26,normal,S001,Downtown Store,P004,P004_M,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W004,2025-01-27,2025-02-02,normal,S001,Downtown Store,P004,P004_M,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W005,2025-02-03,2025-02-09,slow,S001,Downtown Store,P004,P004_M,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W006,2025-02-10,2025-02-16,normal,S001,Downtown Store,P004,P004_M,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W007,2025-02-17,2025-02-23,normal,S001,Downtown Store,P004,P004_M,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W008,2025-02-24,2025-03-02,normal,S001,Downtown Store,P004,P004_M,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W009,2025-03-03,2025-03-09,slow,S001,Downtown Store,P004,P004_M,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W010,2025-03-10,2025-03-16,slow,S001,Downtown Store,P004,P004_M,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W011,2025-03-17,2025-03-23,normal,S001,Downtown Store,P004,P004_M,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W012,2025-03-24,2025-03-30,normal,S001,Downtown Store,P004,P004_M,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W013,2025-03-31,2025-04-06,normal,S001,Downtown Store,P004,P004_M,Trend,33,0,0,0.0,1,1,1,0,1,,Understock,Normal
+W014,2025-04-07,2025-04-13,spike,S001,Downtown Store,P004,P004_M,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W015,2025-04-14,2025-04-20,normal,S001,Downtown Store,P004,P004_M,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W016,2025-04-21,2025-04-27,normal,S001,Downtown Store,P004,P004_M,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W017,2025-04-28,2025-05-04,normal,S001,Downtown Store,P004,P004_M,Trend,33,0,0,0.0,1,1,1,2,0,,Overstock,Hold / Monitor
+W018,2025-05-05,2025-05-11,normal,S001,Downtown Store,P004,P004_M,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W019,2025-05-12,2025-05-18,spike,S001,Downtown Store,P004,P004_M,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W020,2025-05-19,2025-05-25,normal,S001,Downtown Store,P004,P004_M,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W021,2025-05-26,2025-06-01,slow,S001,Downtown Store,P004,P004_M,Trend,33,0,0,0.0,1,1,1,2,0,,Overstock,Hold / Monitor
+W022,2025-06-02,2025-06-08,normal,S001,Downtown Store,P004,P004_M,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W023,2025-06-09,2025-06-15,normal,S001,Downtown Store,P004,P004_M,Trend,33,0,0,0.0,1,1,1,2,0,,Overstock,Hold / Monitor
+W024,2025-06-16,2025-06-22,normal,S001,Downtown Store,P004,P004_M,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W025,2025-06-23,2025-06-29,normal,S001,Downtown Store,P004,P004_M,Trend,33,2,66,0.0,1,1,1,2,0,,Overstock,Hold / Monitor
+W026,2025-06-30,2025-07-06,normal,S001,Downtown Store,P004,P004_M,Trend,33,0,0,0.5,1,1,2,1,1,2.0,Understock,Reorder Now
+W001,2025-01-06,2025-01-12,spike,S001,Downtown Store,P004,P004_S,Trend,33,0,0,0.0,1,1,1,2,0,,Overstock,Hold / Monitor
+W002,2025-01-13,2025-01-19,spike,S001,Downtown Store,P004,P004_S,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W003,2025-01-20,2025-01-26,normal,S001,Downtown Store,P004,P004_S,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W004,2025-01-27,2025-02-02,normal,S001,Downtown Store,P004,P004_S,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W005,2025-02-03,2025-02-09,slow,S001,Downtown Store,P004,P004_S,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W006,2025-02-10,2025-02-16,normal,S001,Downtown Store,P004,P004_S,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W007,2025-02-17,2025-02-23,normal,S001,Downtown Store,P004,P004_S,Trend,33,2,66,0.0,1,1,1,1,0,,Understock,Normal
+W008,2025-02-24,2025-03-02,normal,S001,Downtown Store,P004,P004_S,Trend,33,0,0,0.5,1,1,2,2,0,4.0,Healthy,Normal
+W009,2025-03-03,2025-03-09,slow,S001,Downtown Store,P004,P004_S,Trend,33,0,0,0.5,1,1,2,2,0,4.0,Healthy,Normal
+W010,2025-03-10,2025-03-16,slow,S001,Downtown Store,P004,P004_S,Trend,33,0,0,0.5,1,1,2,2,0,4.0,Healthy,Normal
+W011,2025-03-17,2025-03-23,normal,S001,Downtown Store,P004,P004_S,Trend,33,0,0,0.5,1,1,2,1,1,2.0,Understock,Reorder Now
+W012,2025-03-24,2025-03-30,normal,S001,Downtown Store,P004,P004_S,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W013,2025-03-31,2025-04-06,normal,S001,Downtown Store,P004,P004_S,Trend,33,0,0,0.0,1,1,1,0,1,,Understock,Normal
+W014,2025-04-07,2025-04-13,spike,S001,Downtown Store,P004,P004_S,Trend,33,0,0,0.0,1,1,1,2,0,,Overstock,Hold / Monitor
+W015,2025-04-14,2025-04-20,normal,S001,Downtown Store,P004,P004_S,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W016,2025-04-21,2025-04-27,normal,S001,Downtown Store,P004,P004_S,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W017,2025-04-28,2025-05-04,normal,S001,Downtown Store,P004,P004_S,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W018,2025-05-05,2025-05-11,normal,S001,Downtown Store,P004,P004_S,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W019,2025-05-12,2025-05-18,spike,S001,Downtown Store,P004,P004_S,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W020,2025-05-19,2025-05-25,normal,S001,Downtown Store,P004,P004_S,Trend,33,0,0,0.0,1,1,1,0,1,,Understock,Normal
+W021,2025-05-26,2025-06-01,slow,S001,Downtown Store,P004,P004_S,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W022,2025-06-02,2025-06-08,normal,S001,Downtown Store,P004,P004_S,Trend,33,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W023,2025-06-09,2025-06-15,normal,S001,Downtown Store,P004,P004_S,Trend,33,1,33,0.0,1,1,1,1,0,,Understock,Normal
+W024,2025-06-16,2025-06-22,normal,S001,Downtown Store,P004,P004_S,Trend,33,0,0,0.25,1,1,2,3,0,12.0,Overstock,Hold / Monitor
+W025,2025-06-23,2025-06-29,normal,S001,Downtown Store,P004,P004_S,Trend,33,0,0,0.25,1,1,2,3,0,12.0,Overstock,Hold / Monitor
+W026,2025-06-30,2025-07-06,normal,S001,Downtown Store,P004,P004_S,Trend,33,0,0,0.25,1,1,2,2,0,8.0,Healthy,Normal
+W001,2025-01-06,2025-01-12,spike,S001,Downtown Store,P005,P005_L,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W002,2025-01-13,2025-01-19,spike,S001,Downtown Store,P005,P005_L,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W003,2025-01-20,2025-01-26,normal,S001,Downtown Store,P005,P005_L,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W004,2025-01-27,2025-02-02,normal,S001,Downtown Store,P005,P005_L,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W005,2025-02-03,2025-02-09,slow,S001,Downtown Store,P005,P005_L,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W006,2025-02-10,2025-02-16,normal,S001,Downtown Store,P005,P005_L,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W007,2025-02-17,2025-02-23,normal,S001,Downtown Store,P005,P005_L,Evergreen,89,0,0,0.0,1,1,1,2,0,,Overstock,Hold / Monitor
+W008,2025-02-24,2025-03-02,normal,S001,Downtown Store,P005,P005_L,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W009,2025-03-03,2025-03-09,slow,S001,Downtown Store,P005,P005_L,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W010,2025-03-10,2025-03-16,slow,S001,Downtown Store,P005,P005_L,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W011,2025-03-17,2025-03-23,normal,S001,Downtown Store,P005,P005_L,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W012,2025-03-24,2025-03-30,normal,S001,Downtown Store,P005,P005_L,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W013,2025-03-31,2025-04-06,normal,S001,Downtown Store,P005,P005_L,Evergreen,89,0,0,0.0,1,1,1,0,1,,Understock,Normal
+W014,2025-04-07,2025-04-13,spike,S001,Downtown Store,P005,P005_L,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W015,2025-04-14,2025-04-20,normal,S001,Downtown Store,P005,P005_L,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W016,2025-04-21,2025-04-27,normal,S001,Downtown Store,P005,P005_L,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W017,2025-04-28,2025-05-04,normal,S001,Downtown Store,P005,P005_L,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W018,2025-05-05,2025-05-11,normal,S001,Downtown Store,P005,P005_L,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W019,2025-05-12,2025-05-18,spike,S001,Downtown Store,P005,P005_L,Evergreen,89,2,178,0.0,1,1,1,1,0,,Understock,Normal
+W020,2025-05-19,2025-05-25,normal,S001,Downtown Store,P005,P005_L,Evergreen,89,0,0,0.5,1,1,2,1,1,2.0,Understock,Reorder Now
+W021,2025-05-26,2025-06-01,slow,S001,Downtown Store,P005,P005_L,Evergreen,89,0,0,0.5,1,1,2,2,0,4.0,Healthy,Normal
+W022,2025-06-02,2025-06-08,normal,S001,Downtown Store,P005,P005_L,Evergreen,89,0,0,0.5,1,1,2,3,0,6.0,Overstock,Hold / Monitor
+W023,2025-06-09,2025-06-15,normal,S001,Downtown Store,P005,P005_L,Evergreen,89,0,0,0.5,1,1,2,3,0,6.0,Overstock,Hold / Monitor
+W024,2025-06-16,2025-06-22,normal,S001,Downtown Store,P005,P005_L,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W025,2025-06-23,2025-06-29,normal,S001,Downtown Store,P005,P005_L,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W026,2025-06-30,2025-07-06,normal,S001,Downtown Store,P005,P005_L,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W001,2025-01-06,2025-01-12,spike,S001,Downtown Store,P005,P005_M,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W002,2025-01-13,2025-01-19,spike,S001,Downtown Store,P005,P005_M,Evergreen,89,2,178,0.0,1,1,1,1,0,,Understock,Normal
+W003,2025-01-20,2025-01-26,normal,S001,Downtown Store,P005,P005_M,Evergreen,89,0,0,1.0,1,2,3,4,0,4.0,Overstock,Hold / Monitor
+W004,2025-01-27,2025-02-02,normal,S001,Downtown Store,P005,P005_M,Evergreen,89,0,0,0.6666666666666666,1,1,2,3,0,4.5,Overstock,Hold / Monitor
+W005,2025-02-03,2025-02-09,slow,S001,Downtown Store,P005,P005_M,Evergreen,89,0,0,0.5,1,1,2,2,0,4.0,Healthy,Normal
+W006,2025-02-10,2025-02-16,normal,S001,Downtown Store,P005,P005_M,Evergreen,89,0,0,0.5,1,1,2,1,1,2.0,Understock,Reorder Now
+W007,2025-02-17,2025-02-23,normal,S001,Downtown Store,P005,P005_M,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W008,2025-02-24,2025-03-02,normal,S001,Downtown Store,P005,P005_M,Evergreen,89,0,0,0.0,1,1,1,0,1,,Understock,Normal
+W009,2025-03-03,2025-03-09,slow,S001,Downtown Store,P005,P005_M,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W010,2025-03-10,2025-03-16,slow,S001,Downtown Store,P005,P005_M,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W011,2025-03-17,2025-03-23,normal,S001,Downtown Store,P005,P005_M,Evergreen,89,1,89,0.0,1,1,1,1,0,,Understock,Normal
+W012,2025-03-24,2025-03-30,normal,S001,Downtown Store,P005,P005_M,Evergreen,89,0,0,0.25,1,1,2,1,1,4.0,Understock,Reorder Now
+W013,2025-03-31,2025-04-06,normal,S001,Downtown Store,P005,P005_M,Evergreen,89,0,0,0.25,1,1,2,2,0,8.0,Healthy,Normal
+W014,2025-04-07,2025-04-13,spike,S001,Downtown Store,P005,P005_M,Evergreen,89,0,0,0.25,1,1,2,2,0,8.0,Healthy,Normal
+W015,2025-04-14,2025-04-20,normal,S001,Downtown Store,P005,P005_M,Evergreen,89,0,0,0.25,1,1,2,1,1,4.0,Understock,Reorder Now
+W016,2025-04-21,2025-04-27,normal,S001,Downtown Store,P005,P005_M,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W017,2025-04-28,2025-05-04,normal,S001,Downtown Store,P005,P005_M,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W018,2025-05-05,2025-05-11,normal,S001,Downtown Store,P005,P005_M,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W019,2025-05-12,2025-05-18,spike,S001,Downtown Store,P005,P005_M,Evergreen,89,5,445,0.0,1,1,1,1,0,,Understock,Normal
+W020,2025-05-19,2025-05-25,normal,S001,Downtown Store,P005,P005_M,Evergreen,89,0,0,1.25,1,2,4,2,2,1.6,Understock,Reorder Now
+W021,2025-05-26,2025-06-01,slow,S001,Downtown Store,P005,P005_M,Evergreen,89,0,0,1.25,1,2,4,5,0,4.0,Healthy,Normal
+W022,2025-06-02,2025-06-08,normal,S001,Downtown Store,P005,P005_M,Evergreen,89,0,0,1.25,1,2,4,5,0,4.0,Healthy,Normal
+W023,2025-06-09,2025-06-15,normal,S001,Downtown Store,P005,P005_M,Evergreen,89,0,0,1.25,1,2,4,2,2,1.6,Understock,Reorder Now
+W024,2025-06-16,2025-06-22,normal,S001,Downtown Store,P005,P005_M,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W025,2025-06-23,2025-06-29,normal,S001,Downtown Store,P005,P005_M,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W026,2025-06-30,2025-07-06,normal,S001,Downtown Store,P005,P005_M,Evergreen,89,0,0,0.0,1,1,1,2,0,,Overstock,Hold / Monitor
+W001,2025-01-06,2025-01-12,spike,S001,Downtown Store,P005,P005_S,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W002,2025-01-13,2025-01-19,spike,S001,Downtown Store,P005,P005_S,Evergreen,89,0,0,0.0,1,1,1,0,1,,Understock,Normal
+W003,2025-01-20,2025-01-26,normal,S001,Downtown Store,P005,P005_S,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W004,2025-01-27,2025-02-02,normal,S001,Downtown Store,P005,P005_S,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W005,2025-02-03,2025-02-09,slow,S001,Downtown Store,P005,P005_S,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W006,2025-02-10,2025-02-16,normal,S001,Downtown Store,P005,P005_S,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W007,2025-02-17,2025-02-23,normal,S001,Downtown Store,P005,P005_S,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W008,2025-02-24,2025-03-02,normal,S001,Downtown Store,P005,P005_S,Evergreen,89,0,0,0.0,1,1,1,2,0,,Overstock,Hold / Monitor
+W009,2025-03-03,2025-03-09,slow,S001,Downtown Store,P005,P005_S,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W010,2025-03-10,2025-03-16,slow,S001,Downtown Store,P005,P005_S,Evergreen,89,0,0,0.0,1,1,1,2,0,,Overstock,Hold / Monitor
+W011,2025-03-17,2025-03-23,normal,S001,Downtown Store,P005,P005_S,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W012,2025-03-24,2025-03-30,normal,S001,Downtown Store,P005,P005_S,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W013,2025-03-31,2025-04-06,normal,S001,Downtown Store,P005,P005_S,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W014,2025-04-07,2025-04-13,spike,S001,Downtown Store,P005,P005_S,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W015,2025-04-14,2025-04-20,normal,S001,Downtown Store,P005,P005_S,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W016,2025-04-21,2025-04-27,normal,S001,Downtown Store,P005,P005_S,Evergreen,89,3,267,0.0,1,1,1,1,0,,Understock,Normal
+W017,2025-04-28,2025-05-04,normal,S001,Downtown Store,P005,P005_S,Evergreen,89,0,0,0.75,1,1,2,3,0,4.0,Overstock,Hold / Monitor
+W018,2025-05-05,2025-05-11,normal,S001,Downtown Store,P005,P005_S,Evergreen,89,0,0,0.75,1,1,2,3,0,4.0,Overstock,Hold / Monitor
+W019,2025-05-12,2025-05-18,spike,S001,Downtown Store,P005,P005_S,Evergreen,89,0,0,0.75,1,1,2,2,0,2.67,Healthy,Normal
+W020,2025-05-19,2025-05-25,normal,S001,Downtown Store,P005,P005_S,Evergreen,89,0,0,0.75,1,1,2,1,1,1.33,Understock,Reorder Now
+W021,2025-05-26,2025-06-01,slow,S001,Downtown Store,P005,P005_S,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W022,2025-06-02,2025-06-08,normal,S001,Downtown Store,P005,P005_S,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W023,2025-06-09,2025-06-15,normal,S001,Downtown Store,P005,P005_S,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W024,2025-06-16,2025-06-22,normal,S001,Downtown Store,P005,P005_S,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W025,2025-06-23,2025-06-29,normal,S001,Downtown Store,P005,P005_S,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W026,2025-06-30,2025-07-06,normal,S001,Downtown Store,P005,P005_S,Evergreen,89,0,0,0.0,1,1,1,1,0,,Understock,Normal
+W001,2025-01-06,2025-01-12,spike,S002,Urban Store,P001,P001_L,Evergreen,34,0,0,0.0,2,1,1,0,1,,Understock,Normal
+W002,2025-01-13,2025-01-19,spike,S002,Urban Store,P001,P001_L,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W003,2025-01-20,2025-01-26,normal,S002,Urban Store,P001,P001_L,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W004,2025-01-27,2025-02-02,normal,S002,Urban Store,P001,P001_L,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W005,2025-02-03,2025-02-09,slow,S002,Urban Store,P001,P001_L,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W006,2025-02-10,2025-02-16,normal,S002,Urban Store,P001,P001_L,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W007,2025-02-17,2025-02-23,normal,S002,Urban Store,P001,P001_L,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W008,2025-02-24,2025-03-02,normal,S002,Urban Store,P001,P001_L,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W009,2025-03-03,2025-03-09,slow,S002,Urban Store,P001,P001_L,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W010,2025-03-10,2025-03-16,slow,S002,Urban Store,P001,P001_L,Evergreen,34,0,0,0.0,2,1,1,0,1,,Understock,Normal
+W011,2025-03-17,2025-03-23,normal,S002,Urban Store,P001,P001_L,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W012,2025-03-24,2025-03-30,normal,S002,Urban Store,P001,P001_L,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W013,2025-03-31,2025-04-06,normal,S002,Urban Store,P001,P001_L,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W014,2025-04-07,2025-04-13,spike,S002,Urban Store,P001,P001_L,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W015,2025-04-14,2025-04-20,normal,S002,Urban Store,P001,P001_L,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W016,2025-04-21,2025-04-27,normal,S002,Urban Store,P001,P001_L,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W017,2025-04-28,2025-05-04,normal,S002,Urban Store,P001,P001_L,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W018,2025-05-05,2025-05-11,normal,S002,Urban Store,P001,P001_L,Evergreen,34,3,102,0.0,2,1,1,1,0,,Understock,Normal
+W019,2025-05-12,2025-05-18,spike,S002,Urban Store,P001,P001_L,Evergreen,34,0,0,0.75,2,1,3,4,0,5.33,Overstock,Hold / Monitor
+W020,2025-05-19,2025-05-25,normal,S002,Urban Store,P001,P001_L,Evergreen,34,0,0,0.75,2,1,3,4,0,5.33,Overstock,Hold / Monitor
+W021,2025-05-26,2025-06-01,slow,S002,Urban Store,P001,P001_L,Evergreen,34,0,0,0.75,2,1,3,3,0,4.0,Healthy,Normal
+W022,2025-06-02,2025-06-08,normal,S002,Urban Store,P001,P001_L,Evergreen,34,0,0,0.75,2,1,3,1,2,1.33,Understock,Reorder Now
+W023,2025-06-09,2025-06-15,normal,S002,Urban Store,P001,P001_L,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W024,2025-06-16,2025-06-22,normal,S002,Urban Store,P001,P001_L,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W025,2025-06-23,2025-06-29,normal,S002,Urban Store,P001,P001_L,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W026,2025-06-30,2025-07-06,normal,S002,Urban Store,P001,P001_L,Evergreen,34,0,0,0.0,2,1,1,2,0,,Overstock,Hold / Monitor
+W001,2025-01-06,2025-01-12,spike,S002,Urban Store,P001,P001_M,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W002,2025-01-13,2025-01-19,spike,S002,Urban Store,P001,P001_M,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W003,2025-01-20,2025-01-26,normal,S002,Urban Store,P001,P001_M,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W004,2025-01-27,2025-02-02,normal,S002,Urban Store,P001,P001_M,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W005,2025-02-03,2025-02-09,slow,S002,Urban Store,P001,P001_M,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W006,2025-02-10,2025-02-16,normal,S002,Urban Store,P001,P001_M,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W007,2025-02-17,2025-02-23,normal,S002,Urban Store,P001,P001_M,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W008,2025-02-24,2025-03-02,normal,S002,Urban Store,P001,P001_M,Evergreen,34,0,0,0.0,2,1,1,0,1,,Understock,Normal
+W009,2025-03-03,2025-03-09,slow,S002,Urban Store,P001,P001_M,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W010,2025-03-10,2025-03-16,slow,S002,Urban Store,P001,P001_M,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W011,2025-03-17,2025-03-23,normal,S002,Urban Store,P001,P001_M,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W012,2025-03-24,2025-03-30,normal,S002,Urban Store,P001,P001_M,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W013,2025-03-31,2025-04-06,normal,S002,Urban Store,P001,P001_M,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W014,2025-04-07,2025-04-13,spike,S002,Urban Store,P001,P001_M,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W015,2025-04-14,2025-04-20,normal,S002,Urban Store,P001,P001_M,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W016,2025-04-21,2025-04-27,normal,S002,Urban Store,P001,P001_M,Evergreen,34,0,0,0.0,2,1,1,0,1,,Understock,Normal
+W017,2025-04-28,2025-05-04,normal,S002,Urban Store,P001,P001_M,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W018,2025-05-05,2025-05-11,normal,S002,Urban Store,P001,P001_M,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W019,2025-05-12,2025-05-18,spike,S002,Urban Store,P001,P001_M,Evergreen,34,0,0,0.0,2,1,1,0,1,,Understock,Normal
+W020,2025-05-19,2025-05-25,normal,S002,Urban Store,P001,P001_M,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W021,2025-05-26,2025-06-01,slow,S002,Urban Store,P001,P001_M,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W022,2025-06-02,2025-06-08,normal,S002,Urban Store,P001,P001_M,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W023,2025-06-09,2025-06-15,normal,S002,Urban Store,P001,P001_M,Evergreen,34,0,0,0.0,2,1,1,0,1,,Understock,Normal
+W024,2025-06-16,2025-06-22,normal,S002,Urban Store,P001,P001_M,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W025,2025-06-23,2025-06-29,normal,S002,Urban Store,P001,P001_M,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W026,2025-06-30,2025-07-06,normal,S002,Urban Store,P001,P001_M,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W001,2025-01-06,2025-01-12,spike,S002,Urban Store,P001,P001_S,Evergreen,34,4,136,0.0,2,1,1,1,0,,Understock,Normal
+W002,2025-01-13,2025-01-19,spike,S002,Urban Store,P001,P001_S,Evergreen,34,0,0,4.0,2,5,13,11,2,2.75,Healthy,Normal
+W003,2025-01-20,2025-01-26,normal,S002,Urban Store,P001,P001_S,Evergreen,34,2,68,2.0,2,3,7,9,0,4.5,Overstock,Hold / Monitor
+W004,2025-01-27,2025-02-02,normal,S002,Urban Store,P001,P001_S,Evergreen,34,0,0,2.0,2,3,7,10,0,5.0,Overstock,Hold / Monitor
+W005,2025-02-03,2025-02-09,slow,S002,Urban Store,P001,P001_S,Evergreen,34,0,0,1.5,2,2,5,4,1,2.67,Healthy,Normal
+W006,2025-02-10,2025-02-16,normal,S002,Urban Store,P001,P001_S,Evergreen,34,0,0,0.5,2,1,2,1,1,2.0,Understock,Reorder Now
+W007,2025-02-17,2025-02-23,normal,S002,Urban Store,P001,P001_S,Evergreen,34,0,0,0.5,2,1,2,1,1,2.0,Understock,Reorder Now
+W008,2025-02-24,2025-03-02,normal,S002,Urban Store,P001,P001_S,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W009,2025-03-03,2025-03-09,slow,S002,Urban Store,P001,P001_S,Evergreen,34,0,0,0.0,2,1,1,2,0,,Overstock,Hold / Monitor
+W010,2025-03-10,2025-03-16,slow,S002,Urban Store,P001,P001_S,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W011,2025-03-17,2025-03-23,normal,S002,Urban Store,P001,P001_S,Evergreen,34,2,68,0.0,2,1,1,1,0,,Understock,Normal
+W012,2025-03-24,2025-03-30,normal,S002,Urban Store,P001,P001_S,Evergreen,34,0,0,0.5,2,1,2,3,0,6.0,Overstock,Hold / Monitor
+W013,2025-03-31,2025-04-06,normal,S002,Urban Store,P001,P001_S,Evergreen,34,3,102,0.5,2,1,2,2,0,4.0,Healthy,Normal
+W014,2025-04-07,2025-04-13,spike,S002,Urban Store,P001,P001_S,Evergreen,34,0,0,1.25,2,2,5,7,0,5.6,Overstock,Hold / Monitor
+W015,2025-04-14,2025-04-20,normal,S002,Urban Store,P001,P001_S,Evergreen,34,0,0,1.25,2,2,5,8,0,6.4,Overstock,Hold / Monitor
+W016,2025-04-21,2025-04-27,normal,S002,Urban Store,P001,P001_S,Evergreen,34,0,0,0.75,2,1,3,2,1,2.67,Healthy,Normal
+W017,2025-04-28,2025-05-04,normal,S002,Urban Store,P001,P001_S,Evergreen,34,0,0,0.75,2,1,3,1,2,1.33,Understock,Reorder Now
+W018,2025-05-05,2025-05-11,normal,S002,Urban Store,P001,P001_S,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W019,2025-05-12,2025-05-18,spike,S002,Urban Store,P001,P001_S,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W020,2025-05-19,2025-05-25,normal,S002,Urban Store,P001,P001_S,Evergreen,34,3,102,0.0,2,1,1,1,0,,Understock,Normal
+W021,2025-05-26,2025-06-01,slow,S002,Urban Store,P001,P001_S,Evergreen,34,0,0,0.75,2,1,3,3,0,4.0,Healthy,Normal
+W022,2025-06-02,2025-06-08,normal,S002,Urban Store,P001,P001_S,Evergreen,34,0,0,0.75,2,1,3,2,1,2.67,Healthy,Normal
+W023,2025-06-09,2025-06-15,normal,S002,Urban Store,P001,P001_S,Evergreen,34,0,0,0.75,2,1,3,4,0,5.33,Overstock,Hold / Monitor
+W024,2025-06-16,2025-06-22,normal,S002,Urban Store,P001,P001_S,Evergreen,34,0,0,0.75,2,1,3,4,0,5.33,Overstock,Hold / Monitor
+W025,2025-06-23,2025-06-29,normal,S002,Urban Store,P001,P001_S,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W026,2025-06-30,2025-07-06,normal,S002,Urban Store,P001,P001_S,Evergreen,34,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W001,2025-01-06,2025-01-12,spike,S002,Urban Store,P002,P002_L,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W002,2025-01-13,2025-01-19,spike,S002,Urban Store,P002,P002_L,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W003,2025-01-20,2025-01-26,normal,S002,Urban Store,P002,P002_L,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W004,2025-01-27,2025-02-02,normal,S002,Urban Store,P002,P002_L,Declining,55,0,0,0.0,2,1,1,2,0,,Overstock,Hold / Monitor
+W005,2025-02-03,2025-02-09,slow,S002,Urban Store,P002,P002_L,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W006,2025-02-10,2025-02-16,normal,S002,Urban Store,P002,P002_L,Declining,55,0,0,0.0,2,1,1,0,1,,Understock,Normal
+W007,2025-02-17,2025-02-23,normal,S002,Urban Store,P002,P002_L,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W008,2025-02-24,2025-03-02,normal,S002,Urban Store,P002,P002_L,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W009,2025-03-03,2025-03-09,slow,S002,Urban Store,P002,P002_L,Declining,55,0,0,0.0,2,1,1,2,0,,Overstock,Hold / Monitor
+W010,2025-03-10,2025-03-16,slow,S002,Urban Store,P002,P002_L,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W011,2025-03-17,2025-03-23,normal,S002,Urban Store,P002,P002_L,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W012,2025-03-24,2025-03-30,normal,S002,Urban Store,P002,P002_L,Declining,55,0,0,0.0,2,1,1,0,1,,Understock,Normal
+W013,2025-03-31,2025-04-06,normal,S002,Urban Store,P002,P002_L,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W014,2025-04-07,2025-04-13,spike,S002,Urban Store,P002,P002_L,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W015,2025-04-14,2025-04-20,normal,S002,Urban Store,P002,P002_L,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W016,2025-04-21,2025-04-27,normal,S002,Urban Store,P002,P002_L,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W017,2025-04-28,2025-05-04,normal,S002,Urban Store,P002,P002_L,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W018,2025-05-05,2025-05-11,normal,S002,Urban Store,P002,P002_L,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W019,2025-05-12,2025-05-18,spike,S002,Urban Store,P002,P002_L,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W020,2025-05-19,2025-05-25,normal,S002,Urban Store,P002,P002_L,Declining,55,0,0,0.0,2,1,1,2,0,,Overstock,Hold / Monitor
+W021,2025-05-26,2025-06-01,slow,S002,Urban Store,P002,P002_L,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W022,2025-06-02,2025-06-08,normal,S002,Urban Store,P002,P002_L,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W023,2025-06-09,2025-06-15,normal,S002,Urban Store,P002,P002_L,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W024,2025-06-16,2025-06-22,normal,S002,Urban Store,P002,P002_L,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W025,2025-06-23,2025-06-29,normal,S002,Urban Store,P002,P002_L,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W026,2025-06-30,2025-07-06,normal,S002,Urban Store,P002,P002_L,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W001,2025-01-06,2025-01-12,spike,S002,Urban Store,P002,P002_M,Declining,55,2,110,0.0,2,1,1,1,0,,Understock,Normal
+W002,2025-01-13,2025-01-19,spike,S002,Urban Store,P002,P002_M,Declining,55,0,0,2.0,2,2,6,8,0,4.0,Overstock,Hold / Monitor
+W003,2025-01-20,2025-01-26,normal,S002,Urban Store,P002,P002_M,Declining,55,0,0,1.0,2,1,3,2,1,2.0,Healthy,Normal
+W004,2025-01-27,2025-02-02,normal,S002,Urban Store,P002,P002_M,Declining,55,0,0,0.6666666666666666,2,1,3,5,0,7.5,Overstock,Hold / Monitor
+W005,2025-02-03,2025-02-09,slow,S002,Urban Store,P002,P002_M,Declining,55,0,0,0.5,2,1,2,2,0,4.0,Healthy,Normal
+W006,2025-02-10,2025-02-16,normal,S002,Urban Store,P002,P002_M,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W007,2025-02-17,2025-02-23,normal,S002,Urban Store,P002,P002_M,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W008,2025-02-24,2025-03-02,normal,S002,Urban Store,P002,P002_M,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W009,2025-03-03,2025-03-09,slow,S002,Urban Store,P002,P002_M,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W010,2025-03-10,2025-03-16,slow,S002,Urban Store,P002,P002_M,Declining,55,0,0,0.0,2,1,1,2,0,,Overstock,Hold / Monitor
+W011,2025-03-17,2025-03-23,normal,S002,Urban Store,P002,P002_M,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W012,2025-03-24,2025-03-30,normal,S002,Urban Store,P002,P002_M,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W013,2025-03-31,2025-04-06,normal,S002,Urban Store,P002,P002_M,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W014,2025-04-07,2025-04-13,spike,S002,Urban Store,P002,P002_M,Declining,55,2,110,0.0,2,1,1,1,0,,Understock,Normal
+W015,2025-04-14,2025-04-20,normal,S002,Urban Store,P002,P002_M,Declining,55,0,0,0.5,2,1,2,2,0,4.0,Healthy,Normal
+W016,2025-04-21,2025-04-27,normal,S002,Urban Store,P002,P002_M,Declining,55,0,0,0.5,2,1,2,3,0,6.0,Overstock,Hold / Monitor
+W017,2025-04-28,2025-05-04,normal,S002,Urban Store,P002,P002_M,Declining,55,0,0,0.5,2,1,2,1,1,2.0,Understock,Reorder Now
+W018,2025-05-05,2025-05-11,normal,S002,Urban Store,P002,P002_M,Declining,55,0,0,0.5,2,1,2,3,0,6.0,Overstock,Hold / Monitor
+W019,2025-05-12,2025-05-18,spike,S002,Urban Store,P002,P002_M,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W020,2025-05-19,2025-05-25,normal,S002,Urban Store,P002,P002_M,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W021,2025-05-26,2025-06-01,slow,S002,Urban Store,P002,P002_M,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W022,2025-06-02,2025-06-08,normal,S002,Urban Store,P002,P002_M,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W023,2025-06-09,2025-06-15,normal,S002,Urban Store,P002,P002_M,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W024,2025-06-16,2025-06-22,normal,S002,Urban Store,P002,P002_M,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W025,2025-06-23,2025-06-29,normal,S002,Urban Store,P002,P002_M,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W026,2025-06-30,2025-07-06,normal,S002,Urban Store,P002,P002_M,Declining,55,0,0,0.0,2,1,1,0,1,,Understock,Normal
+W001,2025-01-06,2025-01-12,spike,S002,Urban Store,P002,P002_S,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W002,2025-01-13,2025-01-19,spike,S002,Urban Store,P002,P002_S,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W003,2025-01-20,2025-01-26,normal,S002,Urban Store,P002,P002_S,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W004,2025-01-27,2025-02-02,normal,S002,Urban Store,P002,P002_S,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W005,2025-02-03,2025-02-09,slow,S002,Urban Store,P002,P002_S,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W006,2025-02-10,2025-02-16,normal,S002,Urban Store,P002,P002_S,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W007,2025-02-17,2025-02-23,normal,S002,Urban Store,P002,P002_S,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W008,2025-02-24,2025-03-02,normal,S002,Urban Store,P002,P002_S,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W009,2025-03-03,2025-03-09,slow,S002,Urban Store,P002,P002_S,Declining,55,0,0,0.0,2,1,1,0,1,,Understock,Normal
+W010,2025-03-10,2025-03-16,slow,S002,Urban Store,P002,P002_S,Declining,55,0,0,0.0,2,1,1,2,0,,Overstock,Hold / Monitor
+W011,2025-03-17,2025-03-23,normal,S002,Urban Store,P002,P002_S,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W012,2025-03-24,2025-03-30,normal,S002,Urban Store,P002,P002_S,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W013,2025-03-31,2025-04-06,normal,S002,Urban Store,P002,P002_S,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W014,2025-04-07,2025-04-13,spike,S002,Urban Store,P002,P002_S,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W015,2025-04-14,2025-04-20,normal,S002,Urban Store,P002,P002_S,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W016,2025-04-21,2025-04-27,normal,S002,Urban Store,P002,P002_S,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W017,2025-04-28,2025-05-04,normal,S002,Urban Store,P002,P002_S,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W018,2025-05-05,2025-05-11,normal,S002,Urban Store,P002,P002_S,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W019,2025-05-12,2025-05-18,spike,S002,Urban Store,P002,P002_S,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W020,2025-05-19,2025-05-25,normal,S002,Urban Store,P002,P002_S,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W021,2025-05-26,2025-06-01,slow,S002,Urban Store,P002,P002_S,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W022,2025-06-02,2025-06-08,normal,S002,Urban Store,P002,P002_S,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W023,2025-06-09,2025-06-15,normal,S002,Urban Store,P002,P002_S,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W024,2025-06-16,2025-06-22,normal,S002,Urban Store,P002,P002_S,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W025,2025-06-23,2025-06-29,normal,S002,Urban Store,P002,P002_S,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W026,2025-06-30,2025-07-06,normal,S002,Urban Store,P002,P002_S,Declining,55,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W001,2025-01-06,2025-01-12,spike,S002,Urban Store,P003,P003_L,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W002,2025-01-13,2025-01-19,spike,S002,Urban Store,P003,P003_L,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W003,2025-01-20,2025-01-26,normal,S002,Urban Store,P003,P003_L,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W004,2025-01-27,2025-02-02,normal,S002,Urban Store,P003,P003_L,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W005,2025-02-03,2025-02-09,slow,S002,Urban Store,P003,P003_L,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W006,2025-02-10,2025-02-16,normal,S002,Urban Store,P003,P003_L,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W007,2025-02-17,2025-02-23,normal,S002,Urban Store,P003,P003_L,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W008,2025-02-24,2025-03-02,normal,S002,Urban Store,P003,P003_L,Seasonal,48,3,144,0.0,2,1,1,1,0,,Understock,Normal
+W009,2025-03-03,2025-03-09,slow,S002,Urban Store,P003,P003_L,Seasonal,48,0,0,0.75,2,1,3,3,0,4.0,Healthy,Normal
+W010,2025-03-10,2025-03-16,slow,S002,Urban Store,P003,P003_L,Seasonal,48,0,0,0.75,2,1,3,4,0,5.33,Overstock,Hold / Monitor
+W011,2025-03-17,2025-03-23,normal,S002,Urban Store,P003,P003_L,Seasonal,48,0,0,0.75,2,1,3,2,1,2.67,Healthy,Normal
+W012,2025-03-24,2025-03-30,normal,S002,Urban Store,P003,P003_L,Seasonal,48,0,0,0.75,2,1,3,2,1,2.67,Healthy,Normal
+W013,2025-03-31,2025-04-06,normal,S002,Urban Store,P003,P003_L,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W014,2025-04-07,2025-04-13,spike,S002,Urban Store,P003,P003_L,Seasonal,48,3,144,0.0,2,1,1,1,0,,Understock,Normal
+W015,2025-04-14,2025-04-20,normal,S002,Urban Store,P003,P003_L,Seasonal,48,0,0,0.75,2,1,3,5,0,6.67,Overstock,Hold / Monitor
+W016,2025-04-21,2025-04-27,normal,S002,Urban Store,P003,P003_L,Seasonal,48,0,0,0.75,2,1,3,3,0,4.0,Healthy,Normal
+W017,2025-04-28,2025-05-04,normal,S002,Urban Store,P003,P003_L,Seasonal,48,0,0,0.75,2,1,3,2,1,2.67,Healthy,Normal
+W018,2025-05-05,2025-05-11,normal,S002,Urban Store,P003,P003_L,Seasonal,48,0,0,0.75,2,1,3,2,1,2.67,Healthy,Normal
+W019,2025-05-12,2025-05-18,spike,S002,Urban Store,P003,P003_L,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W020,2025-05-19,2025-05-25,normal,S002,Urban Store,P003,P003_L,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W021,2025-05-26,2025-06-01,slow,S002,Urban Store,P003,P003_L,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W022,2025-06-02,2025-06-08,normal,S002,Urban Store,P003,P003_L,Seasonal,48,0,0,0.0,2,1,1,0,1,,Understock,Normal
+W023,2025-06-09,2025-06-15,normal,S002,Urban Store,P003,P003_L,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W024,2025-06-16,2025-06-22,normal,S002,Urban Store,P003,P003_L,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W025,2025-06-23,2025-06-29,normal,S002,Urban Store,P003,P003_L,Seasonal,48,0,0,0.0,2,1,1,2,0,,Overstock,Hold / Monitor
+W026,2025-06-30,2025-07-06,normal,S002,Urban Store,P003,P003_L,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W001,2025-01-06,2025-01-12,spike,S002,Urban Store,P003,P003_M,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W002,2025-01-13,2025-01-19,spike,S002,Urban Store,P003,P003_M,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W003,2025-01-20,2025-01-26,normal,S002,Urban Store,P003,P003_M,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W004,2025-01-27,2025-02-02,normal,S002,Urban Store,P003,P003_M,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W005,2025-02-03,2025-02-09,slow,S002,Urban Store,P003,P003_M,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W006,2025-02-10,2025-02-16,normal,S002,Urban Store,P003,P003_M,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W007,2025-02-17,2025-02-23,normal,S002,Urban Store,P003,P003_M,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W008,2025-02-24,2025-03-02,normal,S002,Urban Store,P003,P003_M,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W009,2025-03-03,2025-03-09,slow,S002,Urban Store,P003,P003_M,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W010,2025-03-10,2025-03-16,slow,S002,Urban Store,P003,P003_M,Seasonal,48,0,0,0.0,2,1,1,0,1,,Understock,Normal
+W011,2025-03-17,2025-03-23,normal,S002,Urban Store,P003,P003_M,Seasonal,48,0,0,0.0,2,1,1,2,0,,Overstock,Hold / Monitor
+W012,2025-03-24,2025-03-30,normal,S002,Urban Store,P003,P003_M,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W013,2025-03-31,2025-04-06,normal,S002,Urban Store,P003,P003_M,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W014,2025-04-07,2025-04-13,spike,S002,Urban Store,P003,P003_M,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W015,2025-04-14,2025-04-20,normal,S002,Urban Store,P003,P003_M,Seasonal,48,0,0,0.0,2,1,1,0,1,,Understock,Normal
+W016,2025-04-21,2025-04-27,normal,S002,Urban Store,P003,P003_M,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W017,2025-04-28,2025-05-04,normal,S002,Urban Store,P003,P003_M,Seasonal,48,0,0,0.0,2,1,1,0,1,,Understock,Normal
+W018,2025-05-05,2025-05-11,normal,S002,Urban Store,P003,P003_M,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W019,2025-05-12,2025-05-18,spike,S002,Urban Store,P003,P003_M,Seasonal,48,5,240,0.0,2,1,1,1,0,,Understock,Normal
+W020,2025-05-19,2025-05-25,normal,S002,Urban Store,P003,P003_M,Seasonal,48,0,0,1.25,2,2,5,4,1,3.2,Healthy,Normal
+W021,2025-05-26,2025-06-01,slow,S002,Urban Store,P003,P003_M,Seasonal,48,0,0,1.25,2,2,5,8,0,6.4,Overstock,Hold / Monitor
+W022,2025-06-02,2025-06-08,normal,S002,Urban Store,P003,P003_M,Seasonal,48,0,0,1.25,2,2,5,3,2,2.4,Healthy,Normal
+W023,2025-06-09,2025-06-15,normal,S002,Urban Store,P003,P003_M,Seasonal,48,0,0,1.25,2,2,5,7,0,5.6,Overstock,Hold / Monitor
+W024,2025-06-16,2025-06-22,normal,S002,Urban Store,P003,P003_M,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W025,2025-06-23,2025-06-29,normal,S002,Urban Store,P003,P003_M,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W026,2025-06-30,2025-07-06,normal,S002,Urban Store,P003,P003_M,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W001,2025-01-06,2025-01-12,spike,S002,Urban Store,P003,P003_S,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W002,2025-01-13,2025-01-19,spike,S002,Urban Store,P003,P003_S,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W003,2025-01-20,2025-01-26,normal,S002,Urban Store,P003,P003_S,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W004,2025-01-27,2025-02-02,normal,S002,Urban Store,P003,P003_S,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W005,2025-02-03,2025-02-09,slow,S002,Urban Store,P003,P003_S,Seasonal,48,0,0,0.0,2,1,1,2,0,,Overstock,Hold / Monitor
+W006,2025-02-10,2025-02-16,normal,S002,Urban Store,P003,P003_S,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W007,2025-02-17,2025-02-23,normal,S002,Urban Store,P003,P003_S,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W008,2025-02-24,2025-03-02,normal,S002,Urban Store,P003,P003_S,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W009,2025-03-03,2025-03-09,slow,S002,Urban Store,P003,P003_S,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W010,2025-03-10,2025-03-16,slow,S002,Urban Store,P003,P003_S,Seasonal,48,0,0,0.0,2,1,1,2,0,,Overstock,Hold / Monitor
+W011,2025-03-17,2025-03-23,normal,S002,Urban Store,P003,P003_S,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W012,2025-03-24,2025-03-30,normal,S002,Urban Store,P003,P003_S,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W013,2025-03-31,2025-04-06,normal,S002,Urban Store,P003,P003_S,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W014,2025-04-07,2025-04-13,spike,S002,Urban Store,P003,P003_S,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W015,2025-04-14,2025-04-20,normal,S002,Urban Store,P003,P003_S,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W016,2025-04-21,2025-04-27,normal,S002,Urban Store,P003,P003_S,Seasonal,48,0,0,0.0,2,1,1,0,1,,Understock,Normal
+W017,2025-04-28,2025-05-04,normal,S002,Urban Store,P003,P003_S,Seasonal,48,0,0,0.0,2,1,1,0,1,,Understock,Normal
+W018,2025-05-05,2025-05-11,normal,S002,Urban Store,P003,P003_S,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W019,2025-05-12,2025-05-18,spike,S002,Urban Store,P003,P003_S,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W020,2025-05-19,2025-05-25,normal,S002,Urban Store,P003,P003_S,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W021,2025-05-26,2025-06-01,slow,S002,Urban Store,P003,P003_S,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W022,2025-06-02,2025-06-08,normal,S002,Urban Store,P003,P003_S,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W023,2025-06-09,2025-06-15,normal,S002,Urban Store,P003,P003_S,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W024,2025-06-16,2025-06-22,normal,S002,Urban Store,P003,P003_S,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W025,2025-06-23,2025-06-29,normal,S002,Urban Store,P003,P003_S,Seasonal,48,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W026,2025-06-30,2025-07-06,normal,S002,Urban Store,P003,P003_S,Seasonal,48,0,0,0.0,2,1,1,2,0,,Overstock,Hold / Monitor
+W001,2025-01-06,2025-01-12,spike,S002,Urban Store,P004,P004_L,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W002,2025-01-13,2025-01-19,spike,S002,Urban Store,P004,P004_L,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W003,2025-01-20,2025-01-26,normal,S002,Urban Store,P004,P004_L,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W004,2025-01-27,2025-02-02,normal,S002,Urban Store,P004,P004_L,Trend,33,0,0,0.0,2,1,1,2,0,,Overstock,Hold / Monitor
+W005,2025-02-03,2025-02-09,slow,S002,Urban Store,P004,P004_L,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W006,2025-02-10,2025-02-16,normal,S002,Urban Store,P004,P004_L,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W007,2025-02-17,2025-02-23,normal,S002,Urban Store,P004,P004_L,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W008,2025-02-24,2025-03-02,normal,S002,Urban Store,P004,P004_L,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W009,2025-03-03,2025-03-09,slow,S002,Urban Store,P004,P004_L,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W010,2025-03-10,2025-03-16,slow,S002,Urban Store,P004,P004_L,Trend,33,0,0,0.0,2,1,1,0,1,,Understock,Normal
+W011,2025-03-17,2025-03-23,normal,S002,Urban Store,P004,P004_L,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W012,2025-03-24,2025-03-30,normal,S002,Urban Store,P004,P004_L,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W013,2025-03-31,2025-04-06,normal,S002,Urban Store,P004,P004_L,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W014,2025-04-07,2025-04-13,spike,S002,Urban Store,P004,P004_L,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W015,2025-04-14,2025-04-20,normal,S002,Urban Store,P004,P004_L,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W016,2025-04-21,2025-04-27,normal,S002,Urban Store,P004,P004_L,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W017,2025-04-28,2025-05-04,normal,S002,Urban Store,P004,P004_L,Trend,33,2,66,0.0,2,1,1,1,0,,Understock,Normal
+W018,2025-05-05,2025-05-11,normal,S002,Urban Store,P004,P004_L,Trend,33,0,0,0.5,2,1,2,2,0,4.0,Healthy,Normal
+W019,2025-05-12,2025-05-18,spike,S002,Urban Store,P004,P004_L,Trend,33,2,66,0.5,2,1,2,3,0,6.0,Overstock,Hold / Monitor
+W020,2025-05-19,2025-05-25,normal,S002,Urban Store,P004,P004_L,Trend,33,0,0,1.0,2,2,4,4,0,4.0,Healthy,Normal
+W021,2025-05-26,2025-06-01,slow,S002,Urban Store,P004,P004_L,Trend,33,0,0,1.0,2,2,4,4,0,4.0,Healthy,Normal
+W022,2025-06-02,2025-06-08,normal,S002,Urban Store,P004,P004_L,Trend,33,0,0,0.5,2,1,2,1,1,2.0,Understock,Reorder Now
+W023,2025-06-09,2025-06-15,normal,S002,Urban Store,P004,P004_L,Trend,33,0,0,0.5,2,1,2,1,1,2.0,Understock,Reorder Now
+W024,2025-06-16,2025-06-22,normal,S002,Urban Store,P004,P004_L,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W025,2025-06-23,2025-06-29,normal,S002,Urban Store,P004,P004_L,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W026,2025-06-30,2025-07-06,normal,S002,Urban Store,P004,P004_L,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W001,2025-01-06,2025-01-12,spike,S002,Urban Store,P004,P004_M,Trend,33,5,165,0.0,2,1,1,1,0,,Understock,Normal
+W002,2025-01-13,2025-01-19,spike,S002,Urban Store,P004,P004_M,Trend,33,0,0,5.0,2,8,18,28,0,5.6,Overstock,Hold / Monitor
+W003,2025-01-20,2025-01-26,normal,S002,Urban Store,P004,P004_M,Trend,33,0,0,2.5,2,4,9,13,0,5.2,Overstock,Hold / Monitor
+W004,2025-01-27,2025-02-02,normal,S002,Urban Store,P004,P004_M,Trend,33,0,0,1.6666666666666667,2,3,7,8,0,4.8,Healthy,Normal
+W005,2025-02-03,2025-02-09,slow,S002,Urban Store,P004,P004_M,Trend,33,0,0,1.25,2,2,5,8,0,6.4,Overstock,Hold / Monitor
+W006,2025-02-10,2025-02-16,normal,S002,Urban Store,P004,P004_M,Trend,33,0,0,0.0,2,1,1,2,0,,Overstock,Hold / Monitor
+W007,2025-02-17,2025-02-23,normal,S002,Urban Store,P004,P004_M,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W008,2025-02-24,2025-03-02,normal,S002,Urban Store,P004,P004_M,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W009,2025-03-03,2025-03-09,slow,S002,Urban Store,P004,P004_M,Trend,33,0,0,0.0,2,1,1,0,1,,Understock,Normal
+W010,2025-03-10,2025-03-16,slow,S002,Urban Store,P004,P004_M,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W011,2025-03-17,2025-03-23,normal,S002,Urban Store,P004,P004_M,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W012,2025-03-24,2025-03-30,normal,S002,Urban Store,P004,P004_M,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W013,2025-03-31,2025-04-06,normal,S002,Urban Store,P004,P004_M,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W014,2025-04-07,2025-04-13,spike,S002,Urban Store,P004,P004_M,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W015,2025-04-14,2025-04-20,normal,S002,Urban Store,P004,P004_M,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W016,2025-04-21,2025-04-27,normal,S002,Urban Store,P004,P004_M,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W017,2025-04-28,2025-05-04,normal,S002,Urban Store,P004,P004_M,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W018,2025-05-05,2025-05-11,normal,S002,Urban Store,P004,P004_M,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W019,2025-05-12,2025-05-18,spike,S002,Urban Store,P004,P004_M,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W020,2025-05-19,2025-05-25,normal,S002,Urban Store,P004,P004_M,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W021,2025-05-26,2025-06-01,slow,S002,Urban Store,P004,P004_M,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W022,2025-06-02,2025-06-08,normal,S002,Urban Store,P004,P004_M,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W023,2025-06-09,2025-06-15,normal,S002,Urban Store,P004,P004_M,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W024,2025-06-16,2025-06-22,normal,S002,Urban Store,P004,P004_M,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W025,2025-06-23,2025-06-29,normal,S002,Urban Store,P004,P004_M,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W026,2025-06-30,2025-07-06,normal,S002,Urban Store,P004,P004_M,Trend,33,0,0,0.0,2,1,1,2,0,,Overstock,Hold / Monitor
+W001,2025-01-06,2025-01-12,spike,S002,Urban Store,P004,P004_S,Trend,33,4,132,0.0,2,1,1,1,0,,Understock,Normal
+W002,2025-01-13,2025-01-19,spike,S002,Urban Store,P004,P004_S,Trend,33,0,0,4.0,2,6,14,15,0,3.75,Healthy,Normal
+W003,2025-01-20,2025-01-26,normal,S002,Urban Store,P004,P004_S,Trend,33,0,0,2.0,2,3,7,7,0,3.5,Healthy,Normal
+W004,2025-01-27,2025-02-02,normal,S002,Urban Store,P004,P004_S,Trend,33,0,0,1.3333333333333333,2,2,5,4,1,3.0,Healthy,Normal
+W005,2025-02-03,2025-02-09,slow,S002,Urban Store,P004,P004_S,Trend,33,0,0,1.0,2,2,4,3,1,3.0,Healthy,Normal
+W006,2025-02-10,2025-02-16,normal,S002,Urban Store,P004,P004_S,Trend,33,0,0,0.0,2,1,1,2,0,,Overstock,Hold / Monitor
+W007,2025-02-17,2025-02-23,normal,S002,Urban Store,P004,P004_S,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W008,2025-02-24,2025-03-02,normal,S002,Urban Store,P004,P004_S,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W009,2025-03-03,2025-03-09,slow,S002,Urban Store,P004,P004_S,Trend,33,0,0,0.0,2,1,1,2,0,,Overstock,Hold / Monitor
+W010,2025-03-10,2025-03-16,slow,S002,Urban Store,P004,P004_S,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W011,2025-03-17,2025-03-23,normal,S002,Urban Store,P004,P004_S,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W012,2025-03-24,2025-03-30,normal,S002,Urban Store,P004,P004_S,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W013,2025-03-31,2025-04-06,normal,S002,Urban Store,P004,P004_S,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W014,2025-04-07,2025-04-13,spike,S002,Urban Store,P004,P004_S,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W015,2025-04-14,2025-04-20,normal,S002,Urban Store,P004,P004_S,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W016,2025-04-21,2025-04-27,normal,S002,Urban Store,P004,P004_S,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W017,2025-04-28,2025-05-04,normal,S002,Urban Store,P004,P004_S,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W018,2025-05-05,2025-05-11,normal,S002,Urban Store,P004,P004_S,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W019,2025-05-12,2025-05-18,spike,S002,Urban Store,P004,P004_S,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W020,2025-05-19,2025-05-25,normal,S002,Urban Store,P004,P004_S,Trend,33,0,0,0.0,2,1,1,2,0,,Overstock,Hold / Monitor
+W021,2025-05-26,2025-06-01,slow,S002,Urban Store,P004,P004_S,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W022,2025-06-02,2025-06-08,normal,S002,Urban Store,P004,P004_S,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W023,2025-06-09,2025-06-15,normal,S002,Urban Store,P004,P004_S,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W024,2025-06-16,2025-06-22,normal,S002,Urban Store,P004,P004_S,Trend,33,0,0,0.0,2,1,1,2,0,,Overstock,Hold / Monitor
+W025,2025-06-23,2025-06-29,normal,S002,Urban Store,P004,P004_S,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W026,2025-06-30,2025-07-06,normal,S002,Urban Store,P004,P004_S,Trend,33,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W001,2025-01-06,2025-01-12,spike,S002,Urban Store,P005,P005_L,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W002,2025-01-13,2025-01-19,spike,S002,Urban Store,P005,P005_L,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W003,2025-01-20,2025-01-26,normal,S002,Urban Store,P005,P005_L,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W004,2025-01-27,2025-02-02,normal,S002,Urban Store,P005,P005_L,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W005,2025-02-03,2025-02-09,slow,S002,Urban Store,P005,P005_L,Evergreen,89,0,0,0.0,2,1,1,2,0,,Overstock,Hold / Monitor
+W006,2025-02-10,2025-02-16,normal,S002,Urban Store,P005,P005_L,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W007,2025-02-17,2025-02-23,normal,S002,Urban Store,P005,P005_L,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W008,2025-02-24,2025-03-02,normal,S002,Urban Store,P005,P005_L,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W009,2025-03-03,2025-03-09,slow,S002,Urban Store,P005,P005_L,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W010,2025-03-10,2025-03-16,slow,S002,Urban Store,P005,P005_L,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W011,2025-03-17,2025-03-23,normal,S002,Urban Store,P005,P005_L,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W012,2025-03-24,2025-03-30,normal,S002,Urban Store,P005,P005_L,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W013,2025-03-31,2025-04-06,normal,S002,Urban Store,P005,P005_L,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W014,2025-04-07,2025-04-13,spike,S002,Urban Store,P005,P005_L,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W015,2025-04-14,2025-04-20,normal,S002,Urban Store,P005,P005_L,Evergreen,89,0,0,0.0,2,1,1,2,0,,Overstock,Hold / Monitor
+W016,2025-04-21,2025-04-27,normal,S002,Urban Store,P005,P005_L,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W017,2025-04-28,2025-05-04,normal,S002,Urban Store,P005,P005_L,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W018,2025-05-05,2025-05-11,normal,S002,Urban Store,P005,P005_L,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W019,2025-05-12,2025-05-18,spike,S002,Urban Store,P005,P005_L,Evergreen,89,0,0,0.0,2,1,1,2,0,,Overstock,Hold / Monitor
+W020,2025-05-19,2025-05-25,normal,S002,Urban Store,P005,P005_L,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W021,2025-05-26,2025-06-01,slow,S002,Urban Store,P005,P005_L,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W022,2025-06-02,2025-06-08,normal,S002,Urban Store,P005,P005_L,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W023,2025-06-09,2025-06-15,normal,S002,Urban Store,P005,P005_L,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W024,2025-06-16,2025-06-22,normal,S002,Urban Store,P005,P005_L,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W025,2025-06-23,2025-06-29,normal,S002,Urban Store,P005,P005_L,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W026,2025-06-30,2025-07-06,normal,S002,Urban Store,P005,P005_L,Evergreen,89,0,0,0.0,2,1,1,2,0,,Overstock,Hold / Monitor
+W001,2025-01-06,2025-01-12,spike,S002,Urban Store,P005,P005_M,Evergreen,89,3,267,0.0,2,1,1,1,0,,Understock,Normal
+W002,2025-01-13,2025-01-19,spike,S002,Urban Store,P005,P005_M,Evergreen,89,0,0,3.0,2,4,10,14,0,4.67,Overstock,Hold / Monitor
+W003,2025-01-20,2025-01-26,normal,S002,Urban Store,P005,P005_M,Evergreen,89,0,0,1.5,2,2,5,4,1,2.67,Healthy,Normal
+W004,2025-01-27,2025-02-02,normal,S002,Urban Store,P005,P005_M,Evergreen,89,0,0,1.0,2,2,4,3,1,3.0,Healthy,Normal
+W005,2025-02-03,2025-02-09,slow,S002,Urban Store,P005,P005_M,Evergreen,89,0,0,0.75,2,1,3,3,0,4.0,Healthy,Normal
+W006,2025-02-10,2025-02-16,normal,S002,Urban Store,P005,P005_M,Evergreen,89,0,0,0.0,2,1,1,2,0,,Overstock,Hold / Monitor
+W007,2025-02-17,2025-02-23,normal,S002,Urban Store,P005,P005_M,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W008,2025-02-24,2025-03-02,normal,S002,Urban Store,P005,P005_M,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W009,2025-03-03,2025-03-09,slow,S002,Urban Store,P005,P005_M,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W010,2025-03-10,2025-03-16,slow,S002,Urban Store,P005,P005_M,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W011,2025-03-17,2025-03-23,normal,S002,Urban Store,P005,P005_M,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W012,2025-03-24,2025-03-30,normal,S002,Urban Store,P005,P005_M,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W013,2025-03-31,2025-04-06,normal,S002,Urban Store,P005,P005_M,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W014,2025-04-07,2025-04-13,spike,S002,Urban Store,P005,P005_M,Evergreen,89,1,89,0.0,2,1,1,1,0,,Understock,Normal
+W015,2025-04-14,2025-04-20,normal,S002,Urban Store,P005,P005_M,Evergreen,89,0,0,0.25,2,1,2,1,1,4.0,Understock,Reorder Now
+W016,2025-04-21,2025-04-27,normal,S002,Urban Store,P005,P005_M,Evergreen,89,0,0,0.25,2,1,2,2,0,8.0,Healthy,Normal
+W017,2025-04-28,2025-05-04,normal,S002,Urban Store,P005,P005_M,Evergreen,89,0,0,0.25,2,1,2,2,0,8.0,Healthy,Normal
+W018,2025-05-05,2025-05-11,normal,S002,Urban Store,P005,P005_M,Evergreen,89,0,0,0.25,2,1,2,1,1,4.0,Understock,Reorder Now
+W019,2025-05-12,2025-05-18,spike,S002,Urban Store,P005,P005_M,Evergreen,89,4,356,0.0,2,1,1,1,0,,Understock,Normal
+W020,2025-05-19,2025-05-25,normal,S002,Urban Store,P005,P005_M,Evergreen,89,0,0,1.0,2,2,4,2,2,2.0,Understock,Reorder Now
+W021,2025-05-26,2025-06-01,slow,S002,Urban Store,P005,P005_M,Evergreen,89,0,0,1.0,2,2,4,5,0,5.0,Healthy,Normal
+W022,2025-06-02,2025-06-08,normal,S002,Urban Store,P005,P005_M,Evergreen,89,0,0,1.0,2,2,4,5,0,5.0,Healthy,Normal
+W023,2025-06-09,2025-06-15,normal,S002,Urban Store,P005,P005_M,Evergreen,89,0,0,1.0,2,2,4,5,0,5.0,Healthy,Normal
+W024,2025-06-16,2025-06-22,normal,S002,Urban Store,P005,P005_M,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W025,2025-06-23,2025-06-29,normal,S002,Urban Store,P005,P005_M,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W026,2025-06-30,2025-07-06,normal,S002,Urban Store,P005,P005_M,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W001,2025-01-06,2025-01-12,spike,S002,Urban Store,P005,P005_S,Evergreen,89,0,0,0.0,2,1,1,2,0,,Overstock,Hold / Monitor
+W002,2025-01-13,2025-01-19,spike,S002,Urban Store,P005,P005_S,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W003,2025-01-20,2025-01-26,normal,S002,Urban Store,P005,P005_S,Evergreen,89,0,0,0.0,2,1,1,0,1,,Understock,Normal
+W004,2025-01-27,2025-02-02,normal,S002,Urban Store,P005,P005_S,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W005,2025-02-03,2025-02-09,slow,S002,Urban Store,P005,P005_S,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W006,2025-02-10,2025-02-16,normal,S002,Urban Store,P005,P005_S,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W007,2025-02-17,2025-02-23,normal,S002,Urban Store,P005,P005_S,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W008,2025-02-24,2025-03-02,normal,S002,Urban Store,P005,P005_S,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W009,2025-03-03,2025-03-09,slow,S002,Urban Store,P005,P005_S,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W010,2025-03-10,2025-03-16,slow,S002,Urban Store,P005,P005_S,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W011,2025-03-17,2025-03-23,normal,S002,Urban Store,P005,P005_S,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W012,2025-03-24,2025-03-30,normal,S002,Urban Store,P005,P005_S,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W013,2025-03-31,2025-04-06,normal,S002,Urban Store,P005,P005_S,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W014,2025-04-07,2025-04-13,spike,S002,Urban Store,P005,P005_S,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W015,2025-04-14,2025-04-20,normal,S002,Urban Store,P005,P005_S,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W016,2025-04-21,2025-04-27,normal,S002,Urban Store,P005,P005_S,Evergreen,89,0,0,0.0,2,1,1,2,0,,Overstock,Hold / Monitor
+W017,2025-04-28,2025-05-04,normal,S002,Urban Store,P005,P005_S,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W018,2025-05-05,2025-05-11,normal,S002,Urban Store,P005,P005_S,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W019,2025-05-12,2025-05-18,spike,S002,Urban Store,P005,P005_S,Evergreen,89,2,178,0.0,2,1,1,1,0,,Understock,Normal
+W020,2025-05-19,2025-05-25,normal,S002,Urban Store,P005,P005_S,Evergreen,89,3,267,0.5,2,1,2,3,0,6.0,Overstock,Hold / Monitor
+W021,2025-05-26,2025-06-01,slow,S002,Urban Store,P005,P005_S,Evergreen,89,0,0,1.25,2,2,5,7,0,5.6,Overstock,Hold / Monitor
+W022,2025-06-02,2025-06-08,normal,S002,Urban Store,P005,P005_S,Evergreen,89,0,0,1.25,2,2,5,7,0,5.6,Overstock,Hold / Monitor
+W023,2025-06-09,2025-06-15,normal,S002,Urban Store,P005,P005_S,Evergreen,89,0,0,1.25,2,2,5,4,1,3.2,Healthy,Normal
+W024,2025-06-16,2025-06-22,normal,S002,Urban Store,P005,P005_S,Evergreen,89,0,0,0.75,2,1,3,2,1,2.67,Healthy,Normal
+W025,2025-06-23,2025-06-29,normal,S002,Urban Store,P005,P005_S,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
+W026,2025-06-30,2025-07-06,normal,S002,Urban Store,P005,P005_S,Evergreen,89,0,0,0.0,2,1,1,1,0,,Understock,Normal
