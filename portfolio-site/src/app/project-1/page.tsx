@@ -90,8 +90,42 @@ export default function ProjectOne() {
         <section className="space-y-4">
           <h2 className="text-2xl font-semibold">System overview</h2>
           <div className="rounded-[2rem] border border-neutral-900/80 bg-neutral-950/60 p-8">
-            <div className="rounded-2xl border border-neutral-800/80 bg-neutral-900/40 p-6 text-neutral-400 text-sm text-center">
-              Diagram coming soon
+            <div className="rounded-2xl border border-neutral-800/80 bg-neutral-900/40 p-6">
+              <div className="mx-auto max-w-xl space-y-6">
+                {[
+                  {
+                    title: "Sales & promo signals",
+                    body: "Daily sales, promo calendars, and inventory snapshots aligned for product level context.",
+                  },
+                  {
+                    title: "Product level forecasting",
+                    body: "Short-range demand estimates per product level using recent trends and promo sensitivity.",
+                  },
+                  {
+                    title: "Variant level allocation",
+                    body: "Split forecast into variant level needs with variant mix, selling velocity, and stock limits.",
+                  },
+                  {
+                    title: "Decision delivery",
+                    body: "Surface replenishment guidance with timing, quantities, and rationale for planners.",
+                  },
+                ].map((step, index, arr) => (
+                  <div key={step.title} className="flex gap-4">
+                    <div className="flex flex-col items-center">
+                      <span className="flex h-10 w-10 items-center justify-center rounded-full border border-neutral-700 bg-neutral-950 text-sm text-white">
+                        {index + 1}
+                      </span>
+                      {index < arr.length - 1 && (
+                        <span className="mt-1 h-full w-px bg-neutral-800" />
+                      )}
+                    </div>
+                    <div className="space-y-1 text-sm">
+                      <p className="font-semibold text-white">{step.title}</p>
+                      <p className="text-neutral-300">{step.body}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
             <p className="mt-4 text-xs uppercase tracking-[0.25em] text-neutral-500">
               The workflow starts with sales and promo signals, generates product level demand forecasts, and translates them into variant level replenishment recommendations under stock constraints.
