@@ -70,13 +70,11 @@ export default function ProjectOne() {
           </h1>
 
           <p className="max-w-3xl text-base leading-relaxed text-neutral-300 sm:text-lg">
-            Designed a system that transforms sales and inventory signals into
-            product-level demand forecasts and variant-level replenishment decisions.
+            Transforms sales, promo, and inventory signals into product-level demand forecasts and variant-level replenishment recommendations.
           </p>
 
           <p className="max-w-3xl text-sm leading-relaxed text-neutral-400">
-            Ensure the right products are available at the right place, time, and quantity
-            without overstocking or frequent stockouts.
+            Built to help merchandising teams decide what to replenish, when to replenish, and how much to replenish.
           </p>
 
           <p className="text-xs uppercase tracking-[0.25em] text-neutral-500">
@@ -104,7 +102,7 @@ export default function ProjectOne() {
           <h2 className="text-2xl font-semibold">The problem</h2>
 
           <p className="max-w-3xl text-sm leading-relaxed text-neutral-300">
-            Ensure the right products are available at the right place, time, and quantity,
+            Ensure the right products are available at the right time and quantity,
             without overstocking or frequent stockouts.
           </p>
 
@@ -144,29 +142,24 @@ export default function ProjectOne() {
           </div>
         </section>
 
-        <section className="space-y-4">
+        <section className="space-y-3">
           <h2 className="text-2xl font-semibold">System overview</h2>
-
-          <div className="rounded-[32px] border border-white/10 bg-black/20 p-8 md:p-12">
-            <div className="mx-auto max-w-4xl">
-              <div className="space-y-6 md:space-y-7">
+          <div className="rounded-[28px] border border-white/10 bg-black/20 p-6 md:p-8">
+            <div className="mx-auto max-w-3xl">
+              <div className="space-y-5">
                 {systemOverviewSteps.map((step, index) => (
-                  <div key={step.number} className="grid grid-cols-[44px_1fr] gap-5 md:grid-cols-[52px_1fr] md:gap-6">
+                  <div key={step.number} className="grid grid-cols-[44px_1fr] gap-4 md:gap-5">
                     <div className="flex flex-col items-center">
-                      <div className="flex h-10 w-10 items-center justify-center rounded-full border border-white/20 text-sm font-medium text-white md:h-11 md:w-11 md:text-base">
+                      <div className="flex h-8 w-8 items-center justify-center rounded-full border border-white/20 text-sm font-semibold text-white">
                         {step.number}
                       </div>
-
                       {index < systemOverviewSteps.length - 1 && (
-                        <div className="mt-2 h-10 w-px bg-white/10 md:h-12" />
+                        <div className="mt-1.5 h-10 w-px bg-white/15" />
                       )}
                     </div>
-
-                    <div className="pt-0.5">
-                      <h3 className="text-lg font-semibold text-white md:text-xl">
-                        {step.title}
-                      </h3>
-                      <p className="mt-1.5 max-w-xl text-sm leading-relaxed text-white/70 md:text-base">
+                    <div className="pt-0.5 text-left">
+                      <h3 className="text-base font-semibold text-white md:text-lg">{step.title}</h3>
+                      <p className="mt-1.5 max-w-2xl text-sm leading-relaxed text-neutral-400">
                         {step.description}
                       </p>
                     </div>
@@ -174,10 +167,8 @@ export default function ProjectOne() {
                 ))}
               </div>
 
-              <p className="mt-8 max-w-4xl text-xs uppercase tracking-[0.28em] text-white/45 md:mt-10">
-                The workflow starts with sales and promo signals, moves through analytics and
-                feature engineering, generates product-level demand forecasts, and turns them
-                into replenishment recommendations through business rules.
+              <p className="mt-8 max-w-3xl text-xs uppercase tracking-[0.25em] text-white/50">
+                The workflow starts with sales and promo signals, moves through analytics and feature engineering, generates product-level demand forecasts, and turns them into replenishment recommendations through business rules.
               </p>
             </div>
           </div>
@@ -263,7 +254,7 @@ export default function ProjectOne() {
             {[
               "Data preparation and feature engineering",
               "Demand forecasting pipeline",
-              "Replenishment logic",
+              "Allocation and decision logic",
             ].map((item) => (
               <div
                 key={item}
@@ -284,12 +275,6 @@ export default function ProjectOne() {
               View code on GitHub
             </a>
 
-            <a
-              href="mailto:z.lynnhtut@gmail.com"
-              className="rounded-md border border-white/30 px-4 py-2 text-sm text-white hover:border-white"
-            >
-              Request a walkthrough
-            </a>
           </div>
         </section>
       </div>

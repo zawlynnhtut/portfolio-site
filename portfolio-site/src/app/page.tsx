@@ -1,23 +1,23 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-neutral-950 text-white">
-      <section className="mx-auto flex min-h-[80vh] max-w-4xl flex-col items-center justify-center px-6 py-16 text-center sm:py-24">
-        <div className="space-y-4">
-          <h1 className="text-[1.9rem] font-semibold leading-tight tracking-tight text-white sm:text-[2.4rem]">
+      <section className="mx-auto flex min-h-[80vh] max-w-4xl flex-col items-center justify-center px-6 py-14 text-center sm:py-20">
+        <div className="space-y-3">
+          <h1 className="text-[1.8rem] font-semibold leading-tight tracking-tight text-white sm:text-[2.3rem]">
             I turn messy data into decisions that move the business
           </h1>
           <p className="text-base leading-relaxed text-neutral-300 sm:text-lg">
-            Product Data Scientist with 6+ years in ML and 9+ years in analytics across telecom, retail and fintech
+            Product Data Scientist with 6+ years in ML and 9+ years in analytics across telecom, retail, and fintech
           </p>
           <p className="text-sm text-neutral-400">
             I build systems that help businesses decide what to sell, who to target, and when to act.
           </p>
-          <p className="mx-auto max-w-2xl text-xs tracking-[0.08em] text-neutral-400 sm:text-sm">
-            Built systems that improve retention, optimize inventory, and drive revenue.
+          <p className="mx-auto max-w-2xl text-xs tracking-[0.05em] text-neutral-400 sm:text-sm">
+            Built systems that improve retention, optimize inventory, and drive revenue
           </p>
         </div>
 
-        <div className="mt-10 flex flex-wrap justify-center gap-4">
+        <div className="mt-8 flex flex-wrap justify-center gap-4">
           <a
             href="/project-1"
             className="rounded-md bg-white px-5 py-2 text-sm font-semibold text-neutral-900 transition hover:bg-neutral-200"
@@ -37,8 +37,7 @@ export default function Home() {
 
       <section className="mx-auto max-w-5xl px-6 py-24">
         <div className="space-y-3 text-center">
-          <p className="text-sm uppercase tracking-[0.3em] text-neutral-500">What I do</p>
-          <h2 className="text-3xl font-semibold">Focus areas</h2>
+          <h2 className="text-3xl font-semibold">What I do</h2>
         </div>
         <div className="mt-10 grid gap-6 sm:grid-cols-3">
           {[
@@ -62,15 +61,15 @@ export default function Home() {
         <div className="mt-8 space-y-6">
           {[
             {
-              title: "Nul Global — Senior Data Scientist",
+              title: "Nul Global - Senior Data Scientist",
               body: "Built end-to-end demand forecasting systems, reducing retail overstock by up to 80%.",
             },
             {
-              title: "ATOM Telecom — Senior Manager (Advanced Analytics)",
+              title: "ATOM Telecom - Senior Manager (Advanced Analytics)",
               body: "Built churn prediction and recommendation systems, generating $0.2M revenue and saving $0.4M through retention optimization.",
             },
             {
-              title: "Ghostcap — Analytics Manager",
+              title: "Ghostcap - Analytics Manager",
               body: "Improved onboarding funnel (+20%) and automated BI reporting, reducing manual work by 65%.",
             },
           ].map((item) => (
@@ -239,7 +238,7 @@ export default function Home() {
       <section className="mx-auto max-w-5xl px-6 pb-24">
         <div className="mb-10 space-y-3">
           <p className="text-[0.8rem] uppercase tracking-[0.3em] text-neutral-500">Case Study Preview</p>
-          <h2 className="text-3xl font-semibold leading-tight">Demand Forecasting System</h2>
+          <h2 className="text-3xl font-semibold leading-tight">Forecasting and Replenishment Decision System</h2>
           <p className="max-w-3xl text-base leading-relaxed text-neutral-400">
             A condensed look at how the workflow is applied end-to-end for a merchandising org.
           </p>
@@ -274,7 +273,7 @@ export default function Home() {
       <section className="mx-auto max-w-5xl px-6 pb-32">
         <div className="space-y-4">
           <p className="text-[0.8rem] uppercase tracking-[0.3em] text-neutral-500">Contact</p>
-          <h2 className="text-3xl font-semibold leading-tight">Let’s connect</h2>
+          <h2 className="text-3xl font-semibold leading-tight">Let's connect</h2>
           <p className="text-base leading-relaxed text-neutral-400">
             Quick ways to reach me about product data science work.
           </p>
@@ -295,7 +294,7 @@ export default function Home() {
             className="rounded-2xl border border-neutral-900 bg-neutral-950/60 px-5 py-4 text-sm text-neutral-200 hover:border-neutral-700"
           >
             LinkedIn<br />
-            <span className="text-neutral-400">LinkedIn</span>
+            <span className="text-neutral-400">linkedin.com/in/zaw-lynn-htut-dss/</span>
           </a>
           <a
             href="https://github.com/zawlynnhtut/portfolio-site"
