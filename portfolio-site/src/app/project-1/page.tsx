@@ -91,44 +91,36 @@ export default function ProjectOne() {
           <h2 className="text-2xl font-semibold">System overview</h2>
           <div className="rounded-[2rem] border border-neutral-900/80 bg-neutral-950/60 p-8">
             <div className="rounded-2xl border border-neutral-800/80 bg-neutral-900/40 p-6">
-              <div className="mx-auto max-w-xl space-y-6">
+              <div className="mx-auto flex max-w-xl flex-col gap-4">
                 {[
-                  {
-                    title: "Sales & promo signals",
-                    body: "Daily sales, promo calendars, and inventory snapshots aligned for product level context.",
-                  },
-                  {
-                    title: "Product level forecasting",
-                    body: "Short-range demand estimates per product level using recent trends and promo sensitivity.",
-                  },
-                  {
-                    title: "Variant level allocation",
-                    body: "Split forecast into variant level needs with variant mix, selling velocity, and stock limits.",
-                  },
-                  {
-                    title: "Decision delivery",
-                    body: "Surface replenishment guidance with timing, quantities, and rationale for planners.",
-                  },
+                  { title: "Sales + Promo Data" },
+                  { title: "Analytics Layer" },
+                  { title: "Feature Engineering" },
+                  { title: "Demand Forecast", subtitle: "Product level" },
+                  { title: "Decision Layer", subtitle: "Business constraints & replenishment logic" },
+                  { title: "Variant-Level Recommendation" },
                 ].map((step, index, arr) => (
-                  <div key={step.title} className="flex gap-4">
-                    <div className="flex flex-col items-center">
-                      <span className="flex h-10 w-10 items-center justify-center rounded-full border border-neutral-700 bg-neutral-950 text-sm text-white">
+                  <div key={step.title} className="flex flex-col items-center">
+                    <div className="flex w-full items-center gap-4 rounded-2xl border border-neutral-800 bg-neutral-950/70 p-4 text-left">
+                      <span className="flex h-10 w-10 items-center justify-center rounded-full border border-neutral-700 text-sm font-semibold text-white">
                         {index + 1}
                       </span>
-                      {index < arr.length - 1 && (
-                        <span className="mt-1 h-full w-px bg-neutral-800" />
-                      )}
+                      <div>
+                        <p className="text-sm font-semibold text-white">{step.title}</p>
+                        {step.subtitle && (
+                          <p className="text-xs uppercase tracking-[0.25em] text-neutral-500">{step.subtitle}</p>
+                        )}
+                      </div>
                     </div>
-                    <div className="space-y-1 text-sm">
-                      <p className="font-semibold text-white">{step.title}</p>
-                      <p className="text-neutral-300">{step.body}</p>
-                    </div>
+                    {index < arr.length - 1 && (
+                      <div className="flex h-6 items-center justify-center text-neutral-600">│</div>
+                    )}
                   </div>
                 ))}
               </div>
             </div>
             <p className="mt-4 text-xs uppercase tracking-[0.25em] text-neutral-500">
-              The workflow starts with sales and promo signals, generates product level demand forecasts, and translates them into variant level replenishment recommendations under stock constraints.
+              The workflow moves from sales and promo signals through data preparation and forecasting, then turns them into business-rule-driven replenishment recommendations.
             </p>
           </div>
         </section>
