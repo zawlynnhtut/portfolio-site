@@ -229,10 +229,26 @@ export default function ProjectOne() {
         </section>
 
         <section className="space-y-4">
-          <h2 className="text-2xl font-semibold">Public code version</h2>
+          <h2 className="text-2xl font-semibold">Code & Implementation</h2>
+
           <p className="max-w-3xl text-sm leading-relaxed text-neutral-300">
-            A simplified public-safe version of the forecasting workflow will be prepared for GitHub next.
+            This project includes a full end-to-end implementation covering data generation, feature engineering, demand forecasting, and replenishment decision logic.
           </p>
+
+          <p className="max-w-3xl text-sm leading-relaxed text-neutral-400">
+            The repository is structured to reflect a production-style workflow, including modular pipelines, parameterized configurations, and business-driven decision layers.
+          </p>
+
+          <div className="pt-4">
+            <a
+              href="https://github.com/zawlynnhtut/retail-forecasting-replenishment"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-xl border border-neutral-700 px-5 py-3 text-sm text-white transition hover:bg-neutral-800"
+            >
+              View Full Code on GitHub →
+            </a>
+          </div>
         </section>
       </div>
     </main>
