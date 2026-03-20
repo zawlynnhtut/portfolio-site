@@ -10,20 +10,21 @@ export default function ProjectOne() {
             Demand Forecasting System
           </h1>
           <p className="max-w-3xl text-base leading-relaxed text-neutral-300 sm:text-lg">
-            A production-ready forecasting platform that ingests multi-channel sales, promo, and
-            supply signals and returns replenishment guidance that operators can trust in weekly
-            alignment rituals.
+            Structure-only snapshot of a planning-focused forecasting build for inventory teams.
+          </p>
+          <p className="text-xs uppercase tracking-[0.25em] text-neutral-500">
+            Portfolio simulation based on real-world retail planning workflows
           </p>
         </header>
 
         {[
-          { title: "Overview", body: "Snapshot of the platform purpose and scope." },
+          { title: "Overview", body: "Shows how a planning platform turns noisy signals into steady decision support." },
           { title: "Business Problem", body: "Retail teams lacked forward views to plan inventory calmly." },
           { title: "Data Inputs", body: "Sales, promo, and supply signals are routed into a shared layer." },
           { title: "Approach", body: "Lightweight forecasting paired with decision rules for planners." },
-          { title: "Workflow", body: "Intake → scenario planning → guidance surfaced in weekly rituals." },
-          { title: "Business Impact", body: "Early pilots showed steadier ordering and less reactive work." },
-          { title: "Links", body: "Code walkthrough and repo access below." },
+          { title: "Workflow", body: "Intake -> scenario planning -> guidance surfaced in weekly rituals." },
+          { title: "Business Impact", body: "Focuses on decision clarity by keeping demand views, playbooks, and rituals aligned." },
+          { title: "Links", body: "Quick access to the repo and walkthrough options." },
         ].map((section) => (
           <section key={section.title} className="space-y-3 rounded-2xl border border-neutral-900/80 bg-neutral-950/60 p-6">
             <h2 className="text-2xl font-semibold">{section.title}</h2>
@@ -36,7 +37,13 @@ export default function ProjectOne() {
                   rel="noopener noreferrer"
                   className="rounded-md border border-neutral-700 px-4 py-2 hover:border-neutral-500 hover:text-white"
                 >
-                  GitHub
+                  View code on GitHub
+                </a>
+                <a
+                  href="mailto:hello@example.com"
+                  className="rounded-md border border-white/30 px-4 py-2 text-white hover:border-white"
+                >
+                  Request a walkthrough
                 </a>
               </div>
             )}
