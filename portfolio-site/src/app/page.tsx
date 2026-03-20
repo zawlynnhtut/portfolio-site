@@ -208,7 +208,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-5xl px-6 pb-32">
+      <section className="mx-auto max-w-5xl px-6 pb-24">
         <div className="mb-10 space-y-3">
           <p className="text-[0.8rem] uppercase tracking-[0.3em] text-neutral-500">Case Study Preview</p>
           <h2 className="text-3xl font-semibold leading-tight">Demand Forecasting System</h2>
@@ -240,6 +240,44 @@ export default function Home() {
               </a>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl px-6 pb-32">
+        <div className="space-y-4">
+          <p className="text-[0.8rem] uppercase tracking-[0.3em] text-neutral-500">Contact</p>
+          <h2 className="text-3xl font-semibold leading-tight">Let’s connect</h2>
+          <p className="text-base leading-relaxed text-neutral-400">
+            Quick ways to reach me about product data science work.
+          </p>
+        </div>
+
+        <div className="mt-8 grid gap-4 sm:grid-cols-3">
+          <a
+            href="mailto:hello@example.com"
+            className="rounded-2xl border border-neutral-900 bg-neutral-950/60 px-5 py-4 text-sm text-neutral-200 hover:border-neutral-700"
+          >
+            Email<br />
+            <span className="text-neutral-400">hello@example.com</span>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/placeholder"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-2xl border border-neutral-900 bg-neutral-950/60 px-5 py-4 text-sm text-neutral-200 hover:border-neutral-700"
+          >
+            LinkedIn<br />
+            <span className="text-neutral-400">linkedin.com/in/placeholder</span>
+          </a>
+          <a
+            href="https://github.com/zawlynnhtut/portfolio-site"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-2xl border border-neutral-900 bg-neutral-950/60 px-5 py-4 text-sm text-neutral-200 hover:border-neutral-700"
+          >
+            GitHub<br />
+            <span className="text-neutral-400">View the repo</span>
+          </a>
         </div>
       </section>
     </main>
