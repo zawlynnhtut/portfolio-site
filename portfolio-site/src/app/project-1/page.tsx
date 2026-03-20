@@ -103,21 +103,21 @@ export default function ProjectOne() {
           <div className="rounded-[2rem] border border-neutral-900/80 bg-neutral-950/70 p-8">
             <ol className="space-y-6 text-sm text-neutral-300">
               <li>
-                <p className="text-xs uppercase tracking-[0.35em] text-neutral-500">01 · Signal intake</p>
+                <p className="text-xs uppercase tracking-[0.35em] text-neutral-500">01 - Signal intake</p>
                 <p className="mt-2 leading-relaxed">
                   Daily ingestion jobs reconcile telemetry, promo calendars, and supplier updates,
                   generating clean feature stores.
                 </p>
               </li>
               <li>
-                <p className="text-xs uppercase tracking-[0.35em] text-neutral-500">02 · Scenario engine</p>
+                <p className="text-xs uppercase tracking-[0.35em] text-neutral-500">02 - Scenario engine</p>
                 <p className="mt-2 leading-relaxed">
                   Forecasts multiple demand paths, stress-tests them against supply, and scores each
                   plan for margin + availability.
                 </p>
               </li>
               <li>
-                <p className="text-xs uppercase tracking-[0.35em] text-neutral-500">03 · Decision delivery</p>
+                <p className="text-xs uppercase tracking-[0.35em] text-neutral-500">03 - Decision delivery</p>
                 <p className="mt-2 leading-relaxed">
                   Surfaces prioritized replenishment guidance, rationales, and action buttons inside
                   planner rituals and APIs.
@@ -135,9 +135,9 @@ export default function ProjectOne() {
           </p>
           <div className="grid gap-4 sm:grid-cols-3">
             {[
-              { label: "Overstock", value: "↓ 14%", detail: "Lower aging inventory in focus categories." },
-              { label: "Availability", value: "↑ 6 pts", detail: "Higher on-shelf rate during promos." },
-              { label: "Cycle time", value: "−2 days", detail: "Faster plan approval each week." },
+              { label: "Overstock", value: "&darr; 14%", detail: "Lower aging inventory in focus categories." },
+              { label: "Availability", value: "&uarr; 6 pts", detail: "Higher on-shelf rate during promos." },
+              { label: "Cycle time", value: "-2 days", detail: "Faster plan approval each week." },
             ].map((metric) => (
               <div key={metric.label} className="rounded-2xl bg-neutral-950/70 p-6 text-center">
                 <p className="text-xs uppercase tracking-[0.35em] text-neutral-500">{metric.label}</p>
