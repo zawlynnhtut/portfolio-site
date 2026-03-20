@@ -35,7 +35,7 @@ export default function RootLayout({
           <header className="border-b border-white/5 bg-neutral-950/80">
             <nav className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4 text-sm text-neutral-300">
               <Link href="/" className="font-semibold text-white hover:text-white">
-                ZL | Product Data Sciencetist
+                ZL | Product Data Scientist
               </Link>
               <div className="flex items-center gap-6">
                 <Link href="/" className="hover:text-white">
