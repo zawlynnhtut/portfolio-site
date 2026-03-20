@@ -9,13 +9,17 @@ export default function Home() {
             </p>
 
             <h1 className="max-w-3xl text-4xl font-semibold leading-[1.15] tracking-tight sm:text-5xl">
-              Demand forecasting platforms that cut overstock and protect product availability.
+              I build data systems that turn messy business signals into forecasting and decision-ready outputs.
             </h1>
 
             <p className="max-w-2xl text-base leading-relaxed text-neutral-300 sm:text-lg">
               I pair signal-rich forecasting with decision tooling so planning,
               merchandising, and ops teams can move from noisy sales inputs to
               decisive actions faster.
+            </p>
+
+            <p className="text-sm uppercase tracking-[0.25em] text-neutral-500">
+              9+ years across data and analytics, with 6+ years focused on data science and machine learning.
             </p>
           </div>
 
@@ -48,7 +52,7 @@ export default function Home() {
               href="/project-1"
               className="rounded-md border border-neutral-700 px-4 py-2 text-sm text-neutral-300 hover:border-neutral-500 hover:text-white"
             >
-              Deep dive
+              View case study
             </a>
           </div>
         </div>
@@ -149,7 +153,7 @@ export default function Home() {
               href="/project-1"
               className="rounded-md border border-neutral-700 px-4 py-2 text-sm text-neutral-300 hover:border-neutral-500 hover:text-white"
             >
-              Deep dive
+              View case study
             </a>
           </div>
         </div>
@@ -236,7 +240,7 @@ export default function Home() {
                 href="/project-1"
                 className="rounded-md border border-white/30 px-5 py-2 text-sm font-medium text-white hover:border-white"
               >
-                Read the full build
+                View case study
               </a>
             </div>
           </div>

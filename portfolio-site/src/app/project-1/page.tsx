@@ -13,7 +13,7 @@ export default function ProjectOne() {
             Structure-only snapshot of a planning-focused forecasting build for inventory teams.
           </p>
           <p className="text-xs uppercase tracking-[0.25em] text-neutral-500">
-            Portfolio simulation based on real-world retail planning workflows
+            Portfolio simulation based on real-world retail planning workflows.
           </p>
         </header>
 
