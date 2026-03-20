@@ -9,8 +9,7 @@ export default function Home() {
             </p>
 
             <h1 className="max-w-3xl text-4xl font-semibold leading-[1.15] tracking-tight sm:text-5xl">
-              Inventory operating systems that keep revenue goals and supply
-              realities aligned.
+              Demand forecasting platforms that cut overstock and protect product availability.
             </h1>
 
             <p className="max-w-2xl text-base leading-relaxed text-neutral-300 sm:text-lg">
