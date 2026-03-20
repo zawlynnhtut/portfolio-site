@@ -8,10 +8,10 @@ export default function ProjectOne() {
             Retail Replenishment Decision Engine
           </h1>
           <p className="max-w-3xl text-base leading-relaxed text-neutral-300 sm:text-lg">
-            Designed a system that transforms sales and inventory signals into product-level demand forecasts and variant-level replenishment decisions.
+            Designed a system that transforms sales and inventory signals into product level demand forecasts and variant level replenishment decisions.
           </p>
           <p className="text-sm leading-relaxed text-neutral-400">
-            Ensure the right products are available at the right place, time, and quantity — without overstocking or frequent stockouts.
+            Ensure the right products are available at the right place, time, and quantity - without overstocking or frequent stockouts.
           </p>
           <p className="text-xs uppercase tracking-[0.25em] text-neutral-500">
             Portfolio simulation based on real-world retail planning workflows.
@@ -19,7 +19,7 @@ export default function ProjectOne() {
           <div className="flex flex-wrap gap-3 text-xs">
             {[
               "Demand Forecasting",
-              "Variant-Level Decisioning",
+              "Variant Level Decisioning",
               "Inventory Optimization",
               "Production-Minded Design",
             ].map((chip) => (
@@ -47,7 +47,7 @@ export default function ProjectOne() {
           <div>
             <h2 className="text-2xl font-semibold">How the system works</h2>
             <p className="mt-3 text-sm leading-relaxed text-neutral-300">
-              The system converts raw sales and promo data into replenishment decisions through three steps: preparing reliable demand signals, forecasting short-term demand, and translating that forecast into variant-level recommendations.
+              The system converts raw sales and promo data into replenishment decisions through three steps: preparing reliable demand signals, forecasting short-term demand, and translating that forecast into variant level recommendations.
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-3">
@@ -77,9 +77,9 @@ export default function ProjectOne() {
               >
                 <h3 className="text-lg font-semibold">{card.title}</h3>
                 <p className="text-sm leading-relaxed text-neutral-300">{card.body}</p>
-                <ul className="text-sm text-neutral-400 space-y-1">
+                <ul className="space-y-1 text-sm text-neutral-400 list-disc list-inside">
                   {card.bullets.map((item) => (
-                    <li key={item}>• {item}</li>
+                    <li key={item}>{item}</li>
                   ))}
                 </ul>
               </div>
@@ -91,10 +91,10 @@ export default function ProjectOne() {
           <h2 className="text-2xl font-semibold">System overview</h2>
           <div className="rounded-[2rem] border border-neutral-900/80 bg-neutral-950/60 p-8">
             <div className="rounded-2xl border border-neutral-800/80 bg-neutral-900/40 p-6 text-neutral-400 text-sm text-center">
-              [Diagram placeholder]
+              Diagram coming soon
             </div>
             <p className="mt-4 text-xs uppercase tracking-[0.25em] text-neutral-500">
-              The workflow starts with sales and promo signals, generates product-level demand forecasts, and translates them into variant-level replenishment recommendations under stock constraints.
+              The workflow starts with sales and promo signals, generates product level demand forecasts, and translates them into variant level replenishment recommendations under stock constraints.
             </p>
           </div>
         </section>
@@ -164,17 +164,16 @@ export default function ProjectOne() {
           <h2 className="text-2xl font-semibold">Explore the implementation</h2>
           <div className="grid gap-4 text-sm text-neutral-300 sm:grid-cols-3">
             {[
-              { label: "Data preparation and feature engineering", href: "#" },
-              { label: "Demand forecasting pipeline", href: "#" },
-              { label: "Allocation and decision logic", href: "#" },
-            ].map((link) => (
-              <a
-                key={link.label}
-                href={link.href}
-                className="rounded-2xl border border-neutral-900/80 bg-neutral-950/60 p-4 hover:border-neutral-700"
+              "Data preparation and feature engineering",
+              "Demand forecasting pipeline",
+              "Allocation and decision logic",
+            ].map((item) => (
+              <div
+                key={item}
+                className="rounded-2xl border border-neutral-900/80 bg-neutral-950/60 p-4"
               >
-                {link.label}
-              </a>
+                {item}
+              </div>
             ))}
           </div>
           <div className="flex flex-wrap gap-3">
@@ -187,7 +186,7 @@ export default function ProjectOne() {
               View code on GitHub
             </a>
             <a
-              href="mailto:hello@example.com"
+              href="mailto:z.lynnhtut@gmail.com"
               className="rounded-md border border-white/30 px-4 py-2 text-sm text-white hover:border-white"
             >
               Request a walkthrough
