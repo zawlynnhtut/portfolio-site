@@ -33,16 +33,21 @@ export default function RootLayout({
       <body className="min-h-full bg-neutral-950 text-white">
         <div className="flex min-h-screen flex-col">
           <header className="border-b border-white/5 bg-neutral-950/80">
-            <nav className="mx-auto flex max-w-5xl items-center justify-end gap-6 px-6 py-4 text-sm text-neutral-300">
-              <Link href="/" className="hover:text-white">
-                Home
+            <nav className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4 text-sm text-neutral-300">
+              <Link href="/" className="font-semibold text-white hover:text-white">
+                ZL | Product Data Science
               </Link>
-              <Link href="/project-1" className="hover:text-white">
-                Project
-              </Link>
-              <Link href="/about" className="hover:text-white">
-                About
-              </Link>
+              <div className="flex items-center gap-6">
+                <Link href="/" className="hover:text-white">
+                  Home
+                </Link>
+                <Link href="/project-1" className="hover:text-white">
+                  Project
+                </Link>
+                <Link href="/about" className="hover:text-white">
+                  About
+                </Link>
+              </div>
             </nav>
           </header>
           <main className="flex-1">{children}</main>

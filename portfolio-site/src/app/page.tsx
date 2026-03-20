@@ -1,60 +1,84 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-neutral-950 text-white">
-      <section className="mx-auto flex min-h-screen max-w-5xl items-center px-6 py-28 sm:py-32">
-        <div className="w-full space-y-12">
-          <div className="space-y-6">
-            <p className="text-xs uppercase tracking-[0.35em] text-neutral-400">
-              Product Data Scientist
-            </p>
+      <section className="mx-auto flex min-h-[80vh] max-w-4xl flex-col items-center justify-center px-6 py-16 text-center sm:py-24">
+        <div className="space-y-4">
+          <h1 className="text-[1.9rem] font-semibold leading-tight tracking-tight text-white sm:text-[2.4rem]">
+            I turn messy data into decisions that move the business
+          </h1>
+          <p className="text-base leading-relaxed text-neutral-300 sm:text-lg">
+            Product Data Scientist with 6+ years in ML and 9+ years in analytics across telecom, retail and fintech
+          </p>
+          <p className="text-sm text-neutral-400">
+            I build systems that help businesses decide what to sell, who to target, and when to act.
+          </p>
+          <p className="mx-auto max-w-2xl text-xs tracking-[0.08em] text-neutral-400 sm:text-sm">
+            Built systems that improve retention, optimize inventory, and drive revenue.
+          </p>
+        </div>
 
-            <h1 className="max-w-3xl text-4xl font-semibold leading-[1.15] tracking-tight sm:text-5xl">
-              I build data systems that turn messy business signals into forecasting and decision-ready outputs.
-            </h1>
-
-            <p className="max-w-2xl text-base leading-relaxed text-neutral-300 sm:text-lg">
-              I pair signal-rich forecasting with decision tooling so planning,
-              merchandising, and ops teams can move from noisy sales inputs to
-              decisive actions faster.
-            </p>
-
-            <p className="text-sm uppercase tracking-[0.25em] text-neutral-500">
-              9+ years across data and analytics, with 6+ years focused on data science and machine learning.
-            </p>
-          </div>
-
-          <div className="grid gap-6 text-sm text-neutral-300 sm:grid-cols-3">
-            <div className="space-y-1.5">
-              <p className="text-sm font-semibold text-white">Connected demand inputs</p>
-              <p className="text-xs text-neutral-400">Sales, promo, and product context unified.</p>
-            </div>
-            <div className="space-y-1.5">
-              <p className="text-sm font-semibold text-white">Fast scenario loops</p>
-              <p className="text-xs text-neutral-400">Forecasts refresh as assumptions shift.</p>
-            </div>
-            <div className="space-y-1.5">
-              <p className="text-sm font-semibold text-white">Operator-ready guidance</p>
-              <p className="text-xs text-neutral-400">Outputs plug into replenishment cadences.</p>
-            </div>
-          </div>
-
-          <div className="flex flex-wrap gap-4">
-            <a
-              href="https://github.com/zawlynnhtut/portfolio-site"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-md border border-neutral-700 px-4 py-2 text-sm text-neutral-300 hover:border-neutral-500 hover:text-white"
+        <div className="mt-10 flex flex-wrap justify-center gap-4">
+          <a
+            href="/project-1"
+            className="rounded-md bg-white px-5 py-2 text-sm font-semibold text-neutral-900 transition hover:bg-neutral-200"
+          >
+            View case study
+          </a>
+          <a
+            href="https://github.com/zawlynnhtut/portfolio-site"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-md border border-neutral-700 px-4 py-2 text-sm text-neutral-300 transition hover:border-neutral-500 hover:text-white"
             >
               View code on GitHub
             </a>
-
-            <a
-              href="/project-1"
-              className="rounded-md border border-neutral-700 px-4 py-2 text-sm text-neutral-300 hover:border-neutral-500 hover:text-white"
-            >
-              View case study
-            </a>
           </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl px-6 py-24">
+        <div className="space-y-3 text-center">
+          <p className="text-sm uppercase tracking-[0.3em] text-neutral-500">What I do</p>
+          <h2 className="text-3xl font-semibold">Focus areas</h2>
+        </div>
+        <div className="mt-10 grid gap-6 sm:grid-cols-3">
+          {[
+            { title: "Forecasting", body: "Predict demand and customer behavior" },
+            { title: "Decision Systems", body: "Translate predictions into business actions" },
+            { title: "Analytics", body: "Turn raw data into clear insights" },
+          ].map((item) => (
+            <div key={item.title} className="rounded-2xl border border-neutral-900 bg-neutral-950/70 p-6 text-center">
+              <p className="text-lg font-semibold text-white">{item.title}</p>
+              <p className="mt-2 text-sm text-neutral-400">{item.body}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl px-6 py-24">
+        <div className="space-y-3">
+          <p className="text-sm uppercase tracking-[0.3em] text-neutral-500">Experience</p>
+          <h2 className="text-3xl font-semibold">Recent roles</h2>
+        </div>
+        <div className="mt-8 space-y-6">
+          {[
+            {
+              title: "Nul Global — Senior Data Scientist",
+              body: "Built end-to-end demand forecasting systems, reducing retail overstock by up to 80%.",
+            },
+            {
+              title: "ATOM Telecom — Senior Manager (Advanced Analytics)",
+              body: "Built churn prediction and recommendation systems, generating $0.2M revenue and saving $0.4M through retention optimization.",
+            },
+            {
+              title: "Ghostcap — Analytics Manager",
+              body: "Improved onboarding funnel (+20%) and automated BI reporting, reducing manual work by 65%.",
+            },
+          ].map((item) => (
+            <div key={item.title} className="space-y-2 border-b border-neutral-900 pb-6 last:border-b-0 last:pb-0">
+              <p className="text-lg font-semibold text-white">{item.title}</p>
+              <p className="text-sm text-neutral-400">{item.body}</p>
+            </div>
+          ))}
         </div>
       </section>
 
@@ -258,20 +282,20 @@ export default function Home() {
 
         <div className="mt-8 grid gap-4 sm:grid-cols-3">
           <a
-            href="mailto:hello@example.com"
+            href="mailto:z.lynnhtut@gmail.com"
             className="rounded-2xl border border-neutral-900 bg-neutral-950/60 px-5 py-4 text-sm text-neutral-200 hover:border-neutral-700"
           >
             Email<br />
-            <span className="text-neutral-400">hello@example.com</span>
+            <span className="text-neutral-400">z.lynnhtut@gmail.com</span>
           </a>
           <a
-            href="https://www.linkedin.com/in/placeholder"
+            href="https://www.linkedin.com/in/zaw-lynn-htut-dss/"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-2xl border border-neutral-900 bg-neutral-950/60 px-5 py-4 text-sm text-neutral-200 hover:border-neutral-700"
           >
             LinkedIn<br />
-            <span className="text-neutral-400">linkedin.com/in/placeholder</span>
+            <span className="text-neutral-400">LinkedIn</span>
           </a>
           <a
             href="https://github.com/zawlynnhtut/portfolio-site"
