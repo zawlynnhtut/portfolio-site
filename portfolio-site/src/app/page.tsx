@@ -1,7 +1,21 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-neutral-950 text-white">
       <section className="mx-auto flex min-h-[80vh] max-w-4xl flex-col items-center justify-center px-6 py-14 text-center sm:py-20">
+        <div className="mb-6">
+          <div className="relative h-28 w-28 sm:h-32 sm:w-32">
+            <Image
+              src="/profile.jpg"
+              alt="Zaw Lynn Htut"
+              fill
+              className="rounded-full border border-neutral-700 object-cover shadow-md"
+              priority
+            />
+          </div>
+        </div>
+
         <div className="space-y-3">
           <h1 className="text-[1.8rem] font-semibold leading-tight tracking-tight text-white sm:text-[2.3rem]">
             I turn messy data into decisions that move the business
@@ -29,10 +43,10 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-md border border-neutral-700 px-4 py-2 text-sm text-neutral-300 transition hover:border-neutral-500 hover:text-white"
-            >
-              View code on GitHub
-            </a>
-          </div>
+          >
+            View code on GitHub
+          </a>
+        </div>
       </section>
 
       <section className="mx-auto max-w-5xl px-6 py-24">
@@ -84,10 +98,10 @@ export default function Home() {
       <section className="mx-auto max-w-5xl px-6 py-28 sm:py-32">
         <div className="flex flex-wrap items-end justify-between gap-6">
           <div className="max-w-3xl space-y-3">
-            <p className="text-[0.8rem] uppercase tracking-[0.3em] text-neutral-500">
-              Workflow
-            </p>
-            <h2 className="text-3xl font-semibold leading-tight sm:text-[2.1rem]">From messy signals to confident inventory calls</h2>
+            <p className="text-[0.8rem] uppercase tracking-[0.3em] text-neutral-500">Workflow</p>
+            <h2 className="text-3xl font-semibold leading-tight sm:text-[2.1rem]">
+              From messy signals to confident inventory calls
+            </h2>
             <p className="text-base leading-relaxed text-neutral-400">
               The system ties together sales telemetry, promo plans, and supply constraints into an always-on workflow that feels like a product, not a reporting deck.
             </p>
@@ -137,15 +151,21 @@ export default function Home() {
             <ul className="space-y-4 text-sm text-neutral-300">
               <li className="rounded-2xl border border-neutral-800/80 bg-neutral-900/40 p-5">
                 <p className="font-medium text-white">Signal ingestion</p>
-                <p className="mt-1 text-neutral-400">Sales, product, and promo feeds normalized with governance baked in.</p>
+                <p className="mt-1 text-neutral-400">
+                  Sales, product, and promo feeds normalized with governance baked in.
+                </p>
               </li>
               <li className="rounded-2xl border border-neutral-800/80 bg-neutral-900/40 p-5">
                 <p className="font-medium text-white">Scenario forecasting</p>
-                <p className="mt-1 text-neutral-400">Forward-looking demand simulation with knobs for promos or supply shifts.</p>
+                <p className="mt-1 text-neutral-400">
+                  Forward-looking demand simulation with knobs for promos or supply shifts.
+                </p>
               </li>
               <li className="rounded-2xl border border-neutral-800/80 bg-neutral-900/40 p-5">
                 <p className="font-medium text-white">Decision delivery</p>
-                <p className="mt-1 text-neutral-400">APIs and playbooks that push guidance into inventory + replenishment tooling.</p>
+                <p className="mt-1 text-neutral-400">
+                  APIs and playbooks that push guidance into inventory + replenishment tooling.
+                </p>
               </li>
             </ul>
           </div>
@@ -218,19 +238,25 @@ export default function Home() {
           <div className="rounded-2xl bg-neutral-950/80 p-8 ring-1 ring-neutral-900/80">
             <p className="text-[0.7rem] uppercase tracking-[0.35em] text-neutral-500">Impact</p>
             <p className="mt-4 text-2xl font-semibold tracking-tight">&darr; Overstock</p>
-            <p className="mt-3 text-sm leading-relaxed text-neutral-400">Less capital trapped in slow movers.</p>
+            <p className="mt-3 text-sm leading-relaxed text-neutral-400">
+              Less capital trapped in slow movers.
+            </p>
           </div>
 
           <div className="rounded-2xl bg-neutral-950/80 p-8 ring-1 ring-neutral-900/80">
             <p className="text-[0.7rem] uppercase tracking-[0.35em] text-neutral-500">Impact</p>
             <p className="mt-4 text-2xl font-semibold tracking-tight">&uarr; Availability</p>
-            <p className="mt-3 text-sm leading-relaxed text-neutral-400">Shelves stay ready for demand spikes.</p>
+            <p className="mt-3 text-sm leading-relaxed text-neutral-400">
+              Shelves stay ready for demand spikes.
+            </p>
           </div>
 
           <div className="rounded-2xl bg-neutral-950/80 p-8 ring-1 ring-neutral-900/80">
             <p className="text-[0.7rem] uppercase tracking-[0.35em] text-neutral-500">Impact</p>
             <p className="mt-4 text-2xl font-semibold tracking-tight">&uarr; Decision speed</p>
-            <p className="mt-3 text-sm leading-relaxed text-neutral-400">Operators act faster with pre-built guidance.</p>
+            <p className="mt-3 text-sm leading-relaxed text-neutral-400">
+              Operators act faster with pre-built guidance.
+            </p>
           </div>
         </div>
       </section>
@@ -284,7 +310,8 @@ export default function Home() {
             href="mailto:z.lynnhtut@gmail.com"
             className="rounded-2xl border border-neutral-900 bg-neutral-950/60 px-5 py-4 text-sm text-neutral-200 hover:border-neutral-700"
           >
-            Email<br />
+            Email
+            <br />
             <span className="text-neutral-400">z.lynnhtut@gmail.com</span>
           </a>
           <a
@@ -293,7 +320,8 @@ export default function Home() {
             rel="noopener noreferrer"
             className="rounded-2xl border border-neutral-900 bg-neutral-950/60 px-5 py-4 text-sm text-neutral-200 hover:border-neutral-700"
           >
-            LinkedIn<br />
+            LinkedIn
+            <br />
             <span className="text-neutral-400">linkedin.com/in/zaw-lynn-htut-dss/</span>
           </a>
           <a
@@ -302,7 +330,8 @@ export default function Home() {
             rel="noopener noreferrer"
             className="rounded-2xl border border-neutral-900 bg-neutral-950/60 px-5 py-4 text-sm text-neutral-200 hover:border-neutral-700"
           >
-            GitHub<br />
+            GitHub
+            <br />
             <span className="text-neutral-400">View the repo</span>
           </a>
         </div>
